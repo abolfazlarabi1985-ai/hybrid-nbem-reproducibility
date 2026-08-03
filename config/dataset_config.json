@@ -1,0 +1,218 @@
+{
+  "use_canonical_20": true,
+  "requested_folds": 10,
+  "seeds": [
+    13,
+    21,
+    42,
+    87,
+    123
+  ],
+  "n_bins": 5,
+  "mlp_max_iter": 300,
+  "dataset_overrides": {
+    "abalone": {
+      "target_candidates": [
+        "Rings",
+        "rings",
+        "target",
+        "class"
+      ]
+    },
+    "bank_marketing": {
+      "target_candidates": [
+        "y",
+        "deposit",
+        "target",
+        "class",
+        "label"
+      ]
+    },
+    "car_evaluation": {
+      "target_candidates": [
+        "class",
+        "Class",
+        "target",
+        "label",
+        "evaluation"
+      ]
+    },
+    "cardiotocography": {
+      "target_candidates": [
+        "NSP",
+        "nsp",
+        "fetal_health",
+        "target"
+      ],
+      "alternative_target_candidates": [
+        "CLASS",
+        "class"
+      ]
+    },
+    "chronic_kidney_disease": {
+      "target_candidates": [
+        "classification",
+        "class",
+        "target",
+        "label"
+      ]
+    },
+    "cirrhosis_patient_survival_prediction_dataset_1": {
+      "target_candidates": [
+        "Status",
+        "status",
+        "target",
+        "class",
+        "label"
+      ]
+    },
+    "credit_approval": {
+      "target_candidates": [
+        "class",
+        "Class",
+        "target",
+        "label",
+        "approved"
+      ]
+    },
+    "diabetes_130_us_hospitals_for_years_1999_2008": {
+      "target_candidates": [
+        "readmitted",
+        "Readmitted",
+        "readmission"
+      ],
+      "forbidden_targets": [
+        "change"
+      ],
+      "group_column_candidates": [
+        "patient_nbr",
+        "patient_number",
+        "patient_id"
+      ],
+      "drop_feature_candidates": [
+        "encounter_id",
+        "patient_nbr",
+        "patient_number",
+        "patient_id"
+      ]
+    },
+    "dry_bean_dataset": {
+      "target_candidates": [
+        "Class",
+        "class",
+        "target",
+        "label"
+      ]
+    },
+    "ecoli": {
+      "target_candidates": [
+        "class",
+        "Class",
+        "target",
+        "label"
+      ]
+    },
+    "glass_identification": {
+      "target_candidates": [
+        "Type",
+        "type",
+        "class",
+        "target",
+        "label"
+      ]
+    },
+    "haberman_s_survival": {
+      "target_candidates": [
+        "survival_status",
+        "status",
+        "class",
+        "target",
+        "label"
+      ]
+    },
+    "heart_disease": {
+      "target_candidates": [
+        "target",
+        "num",
+        "class",
+        "label",
+        "condition"
+      ]
+    },
+    "heart_failure_clinical_records": {
+      "target_candidates": [
+        "DEATH_EVENT",
+        "death_event",
+        "target",
+        "class",
+        "label"
+      ]
+    },
+    "hepatitis": {
+      "target_candidates": [
+        "class",
+        "Class",
+        "target",
+        "label"
+      ]
+    },
+    "ilpd_indian_liver_patient_dataset": {
+      "target_candidates": [
+        "Selector",
+        "selector",
+        "class",
+        "target",
+        "label"
+      ]
+    },
+    "internet_advertisements": {
+      "target_candidates": [
+        "class",
+        "Class",
+        "target",
+        "label",
+        "ad"
+      ]
+    },
+    "mushroom": {
+      "target_candidates": [
+        "class",
+        "Class",
+        "target",
+        "label",
+        "poisonous"
+      ]
+    },
+    "predict_students_dropout_and_academic_success": {
+      "target_candidates": [
+        "Target",
+        "target",
+        "status",
+        "class",
+        "label"
+      ]
+    },
+    "productivity_prediction_of_garment_employees": {
+      "target_candidates": [
+        "actual_productivity",
+        "Actual_Productivity",
+        "target"
+      ],
+      "target_transform": {
+        "type": "fixed_bins",
+        "bins": [
+          "-inf",
+          0.5,
+          0.75,
+          "inf"
+        ],
+        "labels": [
+          "Low",
+          "Medium",
+          "High"
+        ]
+      }
+    }
+  },
+  "reference_seed": 42
+}
