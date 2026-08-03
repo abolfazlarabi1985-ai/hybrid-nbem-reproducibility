@@ -1,6 +1,6 @@
 # Code review report
 
-Input reviewed: `NBEM_Professor_Revision_Experiment_Code_v2_EXACT20(1).zip`.
+Input reviewed: `NBEM.zip`.
 
 The previous script correctly fitted imputation, encoding, scaling,
 discretization, mutual-information weighting, and dependency selection inside
