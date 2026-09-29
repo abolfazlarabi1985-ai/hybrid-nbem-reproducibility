@@ -1,0 +1,81 @@
+dataset,model,f1_weighted,f1_macro
+abalone,Hybrid NBEM,0.2480219866223177,0.1422316317123329
+abalone,Hybrid w/o Dependency,0.2469948895514623,0.140439384108201
+abalone,Hybrid w/o Adaptive,0.2462168428140358,0.1355398373492476
+abalone,Hybrid w/o Deep,0.2286078327166709,0.1269706997100241
+bank_marketing,Hybrid NBEM,0.8655319126995634,0.6187494772089169
+bank_marketing,Hybrid w/o Dependency,0.8651857687567299,0.6178287355227826
+bank_marketing,Hybrid w/o Adaptive,0.8655371153680089,0.6185033133013536
+bank_marketing,Hybrid w/o Deep,0.8580886011081217,0.5919308639899461
+car_evaluation,Hybrid NBEM,0.9291339318662336,0.840232448182511
+car_evaluation,Hybrid w/o Dependency,0.92632883547611,0.8381850495871339
+car_evaluation,Hybrid w/o Adaptive,0.9074182819344296,0.714910499934234
+car_evaluation,Hybrid w/o Deep,0.8912574126323266,0.740021719827525
+cardiotocography,Hybrid NBEM,0.9316643833760664,0.8757146003601868
+cardiotocography,Hybrid w/o Dependency,0.9303023236940704,0.87211594839443
+cardiotocography,Hybrid w/o Adaptive,0.9306274961395766,0.8732389355193106
+cardiotocography,Hybrid w/o Deep,0.8628649188828457,0.7381682263947608
+chronic_kidney_disease,Hybrid NBEM,0.9799621032153344,0.9786214782182232
+chronic_kidney_disease,Hybrid w/o Dependency,0.9800301609151368,0.978797397732297
+chronic_kidney_disease,Hybrid w/o Adaptive,0.977476915591898,0.9759881668291516
+chronic_kidney_disease,Hybrid w/o Deep,0.977476915591898,0.9759881668291516
+cirrhosis_patient_survival_prediction_dataset_1,Hybrid NBEM,0.727925338472651,0.5088372007862073
+cirrhosis_patient_survival_prediction_dataset_1,Hybrid w/o Dependency,0.7132082984461008,0.4980929767644101
+cirrhosis_patient_survival_prediction_dataset_1,Hybrid w/o Adaptive,0.7184506940659363,0.501869207951185
+cirrhosis_patient_survival_prediction_dataset_1,Hybrid w/o Deep,0.7266459952167362,0.5071376074027877
+credit_approval,Hybrid NBEM,0.8633191946503409,0.8615623897532962
+credit_approval,Hybrid w/o Dependency,0.860189161401099,0.858229321928406
+credit_approval,Hybrid w/o Adaptive,0.8618784249531686,0.860130334673981
+credit_approval,Hybrid w/o Deep,0.8555985235991429,0.8534437476876249
+diabetes_130_us_hospitals_for_years_1999_2008,Hybrid NBEM,0.533084931475848,0.3940922720782226
+diabetes_130_us_hospitals_for_years_1999_2008,Hybrid w/o Dependency,0.5189781414970484,0.3835212282000819
+diabetes_130_us_hospitals_for_years_1999_2008,Hybrid w/o Adaptive,0.5307655515105345,0.3892654861323026
+diabetes_130_us_hospitals_for_years_1999_2008,Hybrid w/o Deep,0.5278408428630736,0.3887516434420871
+dry_bean_dataset,Hybrid NBEM,0.9299131218322936,0.94071316554387
+dry_bean_dataset,Hybrid w/o Dependency,0.930914232927317,0.9414356529034004
+dry_bean_dataset,Hybrid w/o Adaptive,0.9307237186628176,0.9411691463237836
+dry_bean_dataset,Hybrid w/o Deep,0.8977063149522586,0.907072742381684
+ecoli,Hybrid NBEM,0.8576706900939717,0.5675549601518735
+ecoli,Hybrid w/o Dependency,0.8474819803624072,0.5580353244783371
+ecoli,Hybrid w/o Adaptive,0.6866924079176853,0.3038144576213768
+ecoli,Hybrid w/o Deep,0.8605854145071494,0.5699759440996797
+glass_identification,Hybrid NBEM,0.644137670269309,0.5315431703245601
+glass_identification,Hybrid w/o Dependency,0.5554160853075767,0.488963582952231
+glass_identification,Hybrid w/o Adaptive,0.6186678543085865,0.3979386016889195
+glass_identification,Hybrid w/o Deep,0.6117728177673437,0.4939314044706202
+haberman_s_survival,Hybrid NBEM,0.6926900378197749,0.5616334309947756
+haberman_s_survival,Hybrid w/o Dependency,0.6752988997918252,0.5254560625895254
+haberman_s_survival,Hybrid w/o Adaptive,0.6896015898887069,0.5551713155430302
+haberman_s_survival,Hybrid w/o Deep,0.6798077732514166,0.5423617083196915
+heart_disease,Hybrid NBEM,0.5472512581130378,0.2976214864426938
+heart_disease,Hybrid w/o Dependency,0.5543405788089675,0.3033256418269067
+heart_disease,Hybrid w/o Adaptive,0.5381664939606778,0.2936326888953428
+heart_disease,Hybrid w/o Deep,0.5346779054537968,0.2922356787751524
+heart_failure_clinical_records,Hybrid NBEM,0.8284636581338154,0.798736370300797
+heart_failure_clinical_records,Hybrid w/o Dependency,0.7874162849841609,0.7488208397627085
+heart_failure_clinical_records,Hybrid w/o Adaptive,0.8354460868997599,0.8071661194162507
+heart_failure_clinical_records,Hybrid w/o Deep,0.8086432441739813,0.7706363550118992
+hepatitis,Hybrid NBEM,0.838228897028897,0.739006512006512
+hepatitis,Hybrid w/o Dependency,0.8242745421245422,0.7075775335775336
+hepatitis,Hybrid w/o Adaptive,0.77651792135068,0.5947418635004842
+hepatitis,Hybrid w/o Deep,0.8365810337810338,0.7354765974765975
+ilpd_indian_liver_patient_dataset,Hybrid NBEM,0.659896984512068,0.5451672521760671
+ilpd_indian_liver_patient_dataset,Hybrid w/o Dependency,0.6407040401610519,0.5077887626869851
+ilpd_indian_liver_patient_dataset,Hybrid w/o Adaptive,0.6661356885027491,0.5560272895959143
+ilpd_indian_liver_patient_dataset,Hybrid w/o Deep,0.5929693641006176,0.4281638837569506
+internet_advertisements,Hybrid NBEM,0.9673444257664991,0.9321995651401116
+internet_advertisements,Hybrid w/o Dependency,0.9667524811213604,0.93101582024858
+internet_advertisements,Hybrid w/o Adaptive,0.9605617059490784,0.9186380988678836
+internet_advertisements,Hybrid w/o Deep,0.971386379685162,0.939457548781466
+mushroom,Hybrid NBEM,0.9998768414919884,0.999876667532424
+mushroom,Hybrid w/o Dependency,0.9995076681761432,0.9995069955934588
+mushroom,Hybrid w/o Adaptive,0.9998768414919884,0.999876667532424
+mushroom,Hybrid w/o Deep,0.9937243855745524,0.9937177172657088
+predict_students_dropout_and_academic_success,Hybrid NBEM,0.7540290476040126,0.6883758317779402
+predict_students_dropout_and_academic_success,Hybrid w/o Dependency,0.755300472306032,0.6904659216644633
+predict_students_dropout_and_academic_success,Hybrid w/o Adaptive,0.7536524606030597,0.6876834727650947
+predict_students_dropout_and_academic_success,Hybrid w/o Deep,0.7201844062539273,0.6529128084323262
+productivity_prediction_of_garment_employees,Hybrid NBEM,0.6965403959021933,0.5490661838327201
+productivity_prediction_of_garment_employees,Hybrid w/o Dependency,0.6756839140385853,0.5306286619481615
+productivity_prediction_of_garment_employees,Hybrid w/o Adaptive,0.6984258655037847,0.5507879343513112
+productivity_prediction_of_garment_employees,Hybrid w/o Deep,0.6769843652271982,0.5017773121922199

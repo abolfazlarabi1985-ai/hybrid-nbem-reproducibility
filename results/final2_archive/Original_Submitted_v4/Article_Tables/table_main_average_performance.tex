@@ -1,0 +1,18 @@
+\begin{table}[!htbp]
+\centering
+\scriptsize
+\caption{Average predictive performance across the benchmark datasets, reported over five predefined seeds.}
+\label{tab:main_average}
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{lrrrrrrrrrrrrrrrrrrrrrrrr}
+\toprule
+model & accuracy\_mean & accuracy\_std & balanced\_accuracy\_mean & balanced\_accuracy\_std & precision\_weighted\_mean & precision\_weighted\_std & recall\_weighted\_mean & recall\_weighted\_std & f1\_weighted\_mean & f1\_weighted\_std & precision\_macro\_mean & precision\_macro\_std & recall\_macro\_mean & recall\_macro\_std & f1\_macro\_mean & f1\_macro\_std & roc\_auc\_weighted\_mean & roc\_auc\_weighted\_std & train\_time\_s\_mean & train\_time\_s\_std & inference\_time\_s\_mean & inference\_time\_s\_std & peak\_memory\_mb\_mean & peak\_memory\_mb\_std \\
+\midrule
+WNB & 0.7325 & 0.0012 & 0.5035 & 0.0009 & 0.6330 & 0.0012 & 0.7325 & 0.0012 & 0.6604 & 0.0013 & 0.4672 & 0.0013 & 0.5035 & 0.0009 & 0.4680 & 0.0010 & 0.8664 & 0.0008 & 0.5411 & 0.0683 & 0.0218 & 0.0023 & 4.3898 & 0.0013 \\
+NBEM & 0.7307 & 0.0010 & 0.6185 & 0.0032 & 0.7361 & 0.0021 & 0.7307 & 0.0010 & 0.7085 & 0.0012 & 0.6559 & 0.0021 & 0.6179 & 0.0032 & 0.6023 & 0.0029 & 0.8448 & 0.0015 & 0.0379 & 0.0017 & 0.0139 & 0.0002 & 5.0184 & 0.0040 \\
+Adaptive Weighted NBEM & 0.7347 & 0.0017 & 0.6170 & 0.0037 & 0.7335 & 0.0030 & 0.7347 & 0.0017 & 0.7088 & 0.0020 & 0.6561 & 0.0027 & 0.6164 & 0.0037 & 0.6013 & 0.0034 & 0.8451 & 0.0013 & 0.0380 & 0.0020 & 0.0169 & 0.0003 & 5.0181 & 0.0040 \\
+Hybrid NBEM & 0.7922 & 0.0021 & 0.6704 & 0.0035 & 0.7726 & 0.0024 & 0.7922 & 0.0021 & 0.7735 & 0.0025 & 0.6974 & 0.0035 & 0.6704 & 0.0035 & 0.6688 & 0.0041 & 0.8856 & 0.0019 & 28.7785 & 3.8496 & 0.1166 & 0.0068 & 20.2762 & 0.0009 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}

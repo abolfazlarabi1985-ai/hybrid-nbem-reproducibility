@@ -1,0 +1,5 @@
+                Model  Weighted F1  Macro-F1  Weighted F1 vs. Hybrid  Macro-F1 vs. Hybrid
+          Hybrid NBEM     0.774734  0.668577                0.000000             0.000000
+Hybrid w/o Dependency     0.762715  0.656012               -0.012019            -0.012565
+  Hybrid w/o Adaptive     0.759642  0.633805               -0.015092            -0.034772
+      Hybrid w/o Deep     0.755670  0.637507               -0.019064            -0.031070

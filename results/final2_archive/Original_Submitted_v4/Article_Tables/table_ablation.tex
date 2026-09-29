@@ -1,0 +1,22 @@
+\begin{table}[!htbp]
+\centering
+\scriptsize
+\caption{Complete ablation study of Hybrid NBEM.}
+\label{tab:ablation}
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{lrrrrrrrrrrrrr}
+\toprule
+model & accuracy\_mean & balanced\_accuracy\_mean & precision\_weighted\_mean & recall\_weighted\_mean & f1\_weighted\_mean & precision\_macro\_mean & recall\_macro\_mean & f1\_macro\_mean & roc\_auc\_weighted\_mean & train\_time\_s\_mean & inference\_time\_s\_mean & peak\_memory\_mb\_mean & delta\_f1\_weighted\_vs\_hybrid \\
+\midrule
+Hybrid NBEM & 0.7937 & 0.6745 & 0.7735 & 0.7937 & 0.7760 & 0.6987 & 0.6745 & 0.6736 & 0.8838 & 23.2493 & 0.1088 & 20.2748 & 0.0000 \\
+Hybrid w/o Dependency & 0.7849 & 0.6646 & 0.7632 & 0.7849 & 0.7641 & 0.6893 & 0.6646 & 0.6611 & 0.8741 & 21.9110 & 0.0596 & 16.9566 & -0.0120 \\
+Hybrid w/o Adaptive & 0.7858 & 0.6430 & 0.7547 & 0.7858 & 0.7610 & 0.6649 & 0.6430 & 0.6389 & 0.8812 & 23.0124 & 0.0837 & 20.0406 & -0.0151 \\
+Hybrid w/o Deep & 0.7805 & 0.6452 & 0.7530 & 0.7805 & 0.7567 & 0.6727 & 0.6452 & 0.6412 & 0.8746 & 1.5294 & 0.0670 & 15.9299 & -0.0194 \\
+Probabilistic Deep NBEM & 0.7660 & 0.6191 & 0.7327 & 0.7660 & 0.7329 & 0.6445 & 0.6191 & 0.6102 & 0.8515 & 21.3760 & 0.0155 & 6.9919 & -0.0431 \\
+Adaptive Weighted NBEM & 0.7354 & 0.6192 & 0.7310 & 0.7354 & 0.7091 & 0.6558 & 0.6186 & 0.6040 & 0.8439 & 0.0369 & 0.0167 & 5.0224 & -0.0670 \\
+NBEM & 0.7311 & 0.6213 & 0.7336 & 0.7311 & 0.7086 & 0.6570 & 0.6206 & 0.6057 & 0.8429 & 0.0389 & 0.0138 & 5.0226 & -0.0674 \\
+Dependency-Aware NBEM & 0.7398 & 0.5135 & 0.6428 & 0.7398 & 0.6735 & 0.4835 & 0.5135 & 0.4822 & 0.8656 & 0.9785 & 0.0303 & 15.6375 & -0.1025 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}

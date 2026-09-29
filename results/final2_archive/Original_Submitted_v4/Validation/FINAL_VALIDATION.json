@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "n_expected_dataset_model_seed_combinations": 560,
+  "n_observed_dataset_model_seed_combinations": 560,
+  "n_missing_combinations": 0,
+  "missing_combinations_first_50": [],
+  "n_all_non_ok_rows": 0,
+  "n_key_model_non_ok_rows": 0,
+  "n_sensitivity_non_ok_rows": 0,
+  "macro_f1_complete": true,
+  "wnb_present": true,
+  "article_figure_files": [
+    "figure1_datasetwise_weighted_f1.png",
+    "figure2_average_performance.png",
+    "figure3_ablation_weighted_macro_f1.png"
+  ],
+  "exactly_three_article_figures": true
+}

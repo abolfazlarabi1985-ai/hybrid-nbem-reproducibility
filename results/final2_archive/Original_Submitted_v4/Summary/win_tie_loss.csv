@@ -1,0 +1,45 @@
+﻿metric,comparison,model,baseline,wins,ties,losses,mean_difference
+f1_weighted,Adaptive Weighted NBEM vs NBEM,Adaptive Weighted NBEM,NBEM,9,4,7,0.000314751750564439
+f1_weighted,Bernoulli NB vs NBEM,Bernoulli NB,NBEM,10,0,10,-0.023943585291713244
+f1_weighted,Categorical NB vs NBEM,Categorical NB,NBEM,15,0,5,0.043715269173026226
+f1_weighted,Dependency-Aware NBEM vs NBEM,Dependency-Aware NBEM,NBEM,8,0,12,-0.034925323295230036
+f1_weighted,Gaussian NB vs NBEM,Gaussian NB,NBEM,8,0,12,-0.041742551510476185
+f1_weighted,Hybrid NBEM vs NBEM,Hybrid NBEM,NBEM,17,0,3,0.06501528462419992
+f1_weighted,Hybrid w/o Adaptive vs NBEM,Hybrid w/o Adaptive,NBEM,16,0,4,0.05249540991711103
+f1_weighted,Hybrid w/o Deep vs NBEM,Hybrid w/o Deep,NBEM,17,0,3,0.04821588727390358
+f1_weighted,Hybrid w/o Dependency vs NBEM,Hybrid w/o Dependency,NBEM,18,0,2,0.05558390740896997
+f1_weighted,Probabilistic Deep NBEM vs NBEM,Probabilistic Deep NBEM,NBEM,13,0,7,0.024429179106198545
+f1_weighted,WNB vs NBEM,WNB,NBEM,6,0,14,-0.048059207108525535
+f1_weighted,Adaptive Weighted NBEM vs Hybrid NBEM,Adaptive Weighted NBEM,Hybrid NBEM,3,0,17,-0.0647005328736355
+f1_weighted,Bernoulli NB vs Hybrid NBEM,Bernoulli NB,Hybrid NBEM,2,0,18,-0.08895886991591317
+f1_weighted,Categorical NB vs Hybrid NBEM,Categorical NB,Hybrid NBEM,6,0,14,-0.0213000154511737
+f1_weighted,Dependency-Aware NBEM vs Hybrid NBEM,Dependency-Aware NBEM,Hybrid NBEM,0,0,20,-0.09994060791942996
+f1_weighted,Gaussian NB vs Hybrid NBEM,Gaussian NB,Hybrid NBEM,2,0,18,-0.10675783613467611
+f1_weighted,Hybrid w/o Adaptive vs Hybrid NBEM,Hybrid w/o Adaptive,Hybrid NBEM,7,0,13,-0.012519874707088888
+f1_weighted,Hybrid w/o Deep vs Hybrid NBEM,Hybrid w/o Deep,Hybrid NBEM,3,0,17,-0.016799397350296348
+f1_weighted,Hybrid w/o Dependency vs Hybrid NBEM,Hybrid w/o Dependency,Hybrid NBEM,7,0,13,-0.009431377215229955
+f1_weighted,NBEM vs Hybrid NBEM,NBEM,Hybrid NBEM,3,0,17,-0.06501528462419992
+f1_weighted,Probabilistic Deep NBEM vs Hybrid NBEM,Probabilistic Deep NBEM,Hybrid NBEM,3,0,17,-0.04058610551800138
+f1_weighted,WNB vs Hybrid NBEM,WNB,Hybrid NBEM,1,0,19,-0.11307449173272548
+f1_macro,Adaptive Weighted NBEM vs NBEM,Adaptive Weighted NBEM,NBEM,9,4,7,-0.001014671211182376
+f1_macro,Bernoulli NB vs NBEM,Bernoulli NB,NBEM,9,0,11,-0.05036704778756364
+f1_macro,Categorical NB vs NBEM,Categorical NB,NBEM,18,0,2,0.051773218608808146
+f1_macro,Dependency-Aware NBEM vs NBEM,Dependency-Aware NBEM,NBEM,5,0,15,-0.12011424415149488
+f1_macro,Gaussian NB vs NBEM,Gaussian NB,NBEM,10,0,10,-0.03472137628477247
+f1_macro,Hybrid NBEM vs NBEM,Hybrid NBEM,NBEM,16,0,4,0.06653762335728672
+f1_macro,Hybrid w/o Adaptive vs NBEM,Hybrid w/o Adaptive,NBEM,15,0,5,0.03658669830199811
+f1_macro,Hybrid w/o Deep vs NBEM,Hybrid w/o Deep,NBEM,16,0,4,0.038966350562433576
+f1_macro,Hybrid w/o Dependency vs NBEM,Hybrid w/o Dependency,NBEM,17,0,3,0.058862319111848325
+f1_macro,Probabilistic Deep NBEM vs NBEM,Probabilistic Deep NBEM,NBEM,12,0,8,0.007894463394082233
+f1_macro,WNB vs NBEM,WNB,NBEM,4,0,16,-0.134251798478968
+f1_macro,Adaptive Weighted NBEM vs Hybrid NBEM,Adaptive Weighted NBEM,Hybrid NBEM,3,0,17,-0.06755229456846913
+f1_macro,Bernoulli NB vs Hybrid NBEM,Bernoulli NB,Hybrid NBEM,3,0,17,-0.11690467114485041
+f1_macro,Categorical NB vs Hybrid NBEM,Categorical NB,Hybrid NBEM,10,0,10,-0.01476440474847859
+f1_macro,Dependency-Aware NBEM vs Hybrid NBEM,Dependency-Aware NBEM,Hybrid NBEM,0,0,20,-0.18665186750878163
+f1_macro,Gaussian NB vs Hybrid NBEM,Gaussian NB,Hybrid NBEM,2,0,18,-0.10125899964205923
+f1_macro,Hybrid w/o Adaptive vs Hybrid NBEM,Hybrid w/o Adaptive,Hybrid NBEM,8,0,12,-0.02995092505528864
+f1_macro,Hybrid w/o Deep vs Hybrid NBEM,Hybrid w/o Deep,Hybrid NBEM,3,0,17,-0.027571272794853163
+f1_macro,Hybrid w/o Dependency vs Hybrid NBEM,Hybrid w/o Dependency,Hybrid NBEM,8,0,12,-0.007675304245438419
+f1_macro,NBEM vs Hybrid NBEM,NBEM,Hybrid NBEM,4,0,16,-0.06653762335728672
+f1_macro,Probabilistic Deep NBEM vs Hybrid NBEM,Probabilistic Deep NBEM,Hybrid NBEM,3,0,17,-0.058643159963204516
+f1_macro,WNB vs Hybrid NBEM,WNB,Hybrid NBEM,1,0,19,-0.20078942183625476

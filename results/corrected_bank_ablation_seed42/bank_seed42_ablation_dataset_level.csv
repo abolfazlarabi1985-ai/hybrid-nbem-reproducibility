@@ -1,0 +1,5 @@
+dataset,model,f1_weighted,f1_macro
+bank_marketing,Hybrid NBEM,0.8655319126995634,0.6187494772089169
+bank_marketing,Hybrid w/o Dependency,0.8651857687567299,0.6178287355227826
+bank_marketing,Hybrid w/o Adaptive,0.8655371153680089,0.6185033133013536
+bank_marketing,Hybrid w/o Deep,0.8580886011081217,0.5919308639899461
