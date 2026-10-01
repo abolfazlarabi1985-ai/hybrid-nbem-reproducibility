@@ -1,0 +1,6 @@
+PASS: Stage-2 restored source exactly matches retained run-manifest SHA-256: 0218fbec5ed5074af38ecf75ad975b92da3e8ad16b1c1cf962c5ce3a6173a30f
+PASS: Stage-3 restored source exactly matches retained run-manifest SHA-256: ca31ece3fb189e3a6c74e5f4975b240e04ee2f8ac621425791a53fd9af0c228d
+PASS: Stage-4 restored source exactly matches retained run-manifest SHA-256: 21c4a8f8545f519b85126a3d16c0a51b628497da4cdcfcb27d96408ecd92c1be
+PASS: retained v4 base implementation SHA-256: 1560fe819ca698867442525b65c8e34b45cd2e6c4809344a5e5e050e5fd2d886
+PASS: frozen revision configuration SHA-256: 1ad64004297ef2e53461ed937f3929cf6857da0ce3d0cf161fbfb2a2c65f48a2
+PASS: locked Stage-3/4 seed-plan SHA-256: 315f8ba90a1759839429fbac4a151f77f5b1b00bb380470573cc92443389fe79

@@ -1,0 +1,46 @@
+PASS: all professor-requested repository material categories are present.
+  - preprocessing implementation: src/nbem_article_experiments_v4_EXACT_USED.py
+  - final dataset configuration: config/dataset_config_FINAL_bank_duration_removed.json
+  - 20-seed plan: config/seed_plan_20.json
+  - five original seeds: config/ORIGINAL_FIVE_SEEDS.txt
+  - seed-42 ablation: results/current/bank_seed42/ablation_dataset_seed42_corrected.csv
+  - bootstrap CI + Wilcoxon/Holm output: results/current/focal_20seed/table_focal_20seed_pairwise.csv
+  - focal statistical verification script: scripts/recompute_focal_statistics.py
+  - cross-fitted experiment: results/current/crossfit/table_crossfit_subset_delta.csv
+  - duplicate sensitivity: results/current/duplicate_sensitivity/table_duplicate_sensitivity.csv
+  - environment requirements: environment/requirements.txt
+  - execution environment snapshot: environment/execution_environment_original_v4.json
+  - Supplementary S1-S13 PDF: supplementary/Supplementary_Information_S1-S13_FINAL.pdf
+  - Supplementary S1-S13 machine-readable index: supplementary/tables_S1_S13/TABLE_INDEX.json
+  - reproduction README: README.md
+  - original Stage-2 source: pipeline/stage2/stage2_major_revision.py
+  - original Stage-3 source: pipeline/stage3/stage3_major_revision.py
+  - original Stage-4 source: pipeline/stage4_rf20/stage4_rf20_major_revision.py
+  - stage source hash verification table: provenance/STAGE_SOURCE_HASH_VERIFICATION.csv
+PASS: Stage-2 restored source exactly matches retained run-manifest SHA-256: 0218fbec5ed5074af38ecf75ad975b92da3e8ad16b1c1cf962c5ce3a6173a30f
+PASS: Stage-3 restored source exactly matches retained run-manifest SHA-256: ca31ece3fb189e3a6c74e5f4975b240e04ee2f8ac621425791a53fd9af0c228d
+PASS: Stage-4 restored source exactly matches retained run-manifest SHA-256: 21c4a8f8545f519b85126a3d16c0a51b628497da4cdcfcb27d96408ecd92c1be
+PASS: retained v4 base implementation SHA-256: 1560fe819ca698867442525b65c8e34b45cd2e6c4809344a5e5e050e5fd2d886
+PASS: frozen revision configuration SHA-256: 1ad64004297ef2e53461ed937f3929cf6857da0ce3d0cf161fbfb2a2c65f48a2
+PASS: locked Stage-3/4 seed-plan SHA-256: 315f8ba90a1759839429fbac4a151f77f5b1b00bb380470573cc92443389fe79
+                Model  Weighted F1  Macro-F1  Weighted F1 vs. Hybrid  Macro-F1 vs. Hybrid
+          Hybrid NBEM     0.774734  0.668577                0.000000             0.000000
+Hybrid w/o Dependency     0.762715  0.656012               -0.012019            -0.012565
+  Hybrid w/o Adaptive     0.759642  0.633805               -0.015092            -0.034772
+      Hybrid w/o Deep     0.755670  0.637507               -0.019064            -0.031070
+PASS: corrected Table 5 and ablation Wilcoxon/Holm match retained final values.
+PASS: focal 20-seed statistics verified. Wrote results/current/focal_20seed/recomputed_focal_pairwise_verification.csv
+PASS: independent 50,000-replicate bootstrap agrees with retained final CI endpoints within 0.001; original Stage-3/4 source is separately hash-verified.
+PASS: cross-fitted subset outputs match retained Stage-2 summary for all 6 predeclared datasets.
+PASS: duplicate-grouped sensitivity outputs match retained Stage-1b summary.
+PASS: machine-readable Supplementary Tables S1-S13 are complete and sequential.
+PASS: no Friedman/twelve-model ranking appears in current evidence or final Supplementary.
+== check_required_materials.py ==
+== verify_stage_source_hashes.py ==
+== recompute_table5.py ==
+== recompute_focal_statistics.py ==
+== verify_crossfit_outputs.py ==
+== verify_duplicate_sensitivity.py ==
+== verify_supplementary_tables.py ==
+== check_no_primary_friedman.py ==
+PASS: release verification suite completed.
