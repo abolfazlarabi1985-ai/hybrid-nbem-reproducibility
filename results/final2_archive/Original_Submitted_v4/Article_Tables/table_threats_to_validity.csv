@@ -1,7 +1,0 @@
-﻿Threat or limitation,Mitigation / interpretation
-Benchmark scope,Claims are restricted to the NB/NBEM family; modern ensemble and tabular-foundation baselines are left to future work.
-Non-cross-fitted stacker,Theorem 3.3 is an idealized theoretical result and is not presented as a finite-sample guarantee for the current implementation.
-Seed sensitivity,Five predefined random seeds are reported using mean and standard deviation.
-Class imbalance,"Macro-F1 is reported together with weighted-F1, accuracy, and balanced accuracy."
-CV feasibility for rare classes,Adjusted or non-stratified protocols are explicitly reported and subjected to a separate sensitivity analysis.
-Heuristic feature typing,Features with at most two observed values are treated as Boolean; this may misclassify discrete numerical variables in small samples.
