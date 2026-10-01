@@ -1,0 +1,21 @@
+Stage 1B package validation (OpenAI build environment)
+======================================================
+Audit test: PASS
+- exact dataset SHA-256 matches: 20/20
+- duplicate-bearing datasets evaluated: 6
+- predeclared 10% heavy-duplicate threshold selected:
+  * haberman_s_survival
+  * internet_advertisements
+- Stage-1 semantic decision integrity: PASS
+
+Smoke model test: PASS
+- dataset: haberman_s_survival
+- seed: 42
+- 2-fold smoke run
+- models: NBEM, Hybrid NBEM
+- record-level rerun: PASS
+- duplicate-grouped split: PASS
+- grouped split signature overlap: 0
+
+Smoke outputs were deleted and must not be used in the manuscript.
+Use the full five-seed run for scientific results.

@@ -1,0 +1,23 @@
+{
+  "stage": "major_revision_stage1",
+  "base_v4_script_sha256": "1560fe819ca698867442525b65c8e34b45cd2e6c4809344a5e5e050e5fd2d886",
+  "base_v4_config_sha256": "7452226505104e627ee419d644156b016a8e7b748f481fc4bb39ddc29736f45f",
+  "dataset_manifest_sha256": "fc175486daca3e26980e9d42fc836e86d8abb045deb65ecd648a60552f1c3b76",
+  "mode": "bank",
+  "seeds": [
+    13,
+    21,
+    42,
+    87,
+    123
+  ],
+  "folds": 10,
+  "n_bins": 5,
+  "mlp_max_iter": 300,
+  "quick": false,
+  "notes": [
+    "Original v4 source/config are not modified.",
+    "Bank sensitivity compares the same four primary in-family models under identical seeds and CV except for removal of duration.",
+    "Automated audit does not replace semantic/manual source review of post-outcome variables."
+  ]
+}
