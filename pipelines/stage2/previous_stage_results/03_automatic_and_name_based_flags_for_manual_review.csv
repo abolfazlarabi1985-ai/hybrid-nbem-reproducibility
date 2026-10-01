@@ -1,0 +1,6 @@
+﻿dataset,feature,dtype,n_unique,missing_n,missing_pct,automatic_leakage_flag,automatic_flag_reason,name_based_review_reason,manual_source_review_required,manual_decision,manual_rationale_or_source,action_for_revision
+bank_marketing,duration,int64,1573,0,0.0,False,,known Bank Marketing post-contact variable requiring sensitivity analysis,True,,,
+diabetes_130_us_hospitals_for_years_1999_2008,admission_type_id,int64,8,0,0.0,False,,identifier-like name,True,,,
+diabetes_130_us_hospitals_for_years_1999_2008,discharge_disposition_id,int64,26,0,0.0,False,,identifier-like name,True,,,
+diabetes_130_us_hospitals_for_years_1999_2008,admission_source_id,int64,17,0,0.0,False,,identifier-like name,True,,,
+hepatitis,STEROID,float64,2,1,0.6451612903225806,False,,identifier-like name,True,,,

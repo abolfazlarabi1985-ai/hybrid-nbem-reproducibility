@@ -1,0 +1,21 @@
+﻿dataset,source_file,output_file,rows,columns,target,target_unique,missing_values,boolean_features_est,categorical_features_est,numerical_features_est,status
+abalone,abalone\abalone.data,datasets\processed\abalone\abalone.csv,4177,9,Rings,28,0,0,1,7,OK
+bank_marketing,bank_marketing\bank\bank-full.csv,datasets\processed\bank_marketing\bank_marketing.csv,45211,17,y,2,0,3,6,7,OK
+car_evaluation,car_evaluation\car.data,datasets\processed\car_evaluation\car_evaluation.csv,1728,7,class,4,0,0,6,0,OK
+cardiotocography,cardiotocography\CTG.xls,datasets\processed\cardiotocography\cardiotocography.csv,2129,42,23,4,52,1,40,0,OK
+chronic_kidney_disease,chronic_kidney_disease\ChronicKidneyDisease.csv,datasets\processed\chronic_kidney_disease\chronic_kidney_disease.csv,400,26,classification,3,1009,8,5,12,OK
+cirrhosis_patient_survival_prediction_dataset-1,cirrhosis_patient_survival_prediction_dataset-1\cirrhosis.csv,datasets\processed\cirrhosis_patient_survival_prediction_dataset_1\cirrhosis_patient_survival_prediction_dataset_1.csv,418,20,Status,3,1033,5,1,13,OK
+credit_approval,credit_approval\crx.data,datasets\processed\credit_approval\credit_approval.csv,690,16,class,2,67,4,5,6,OK
+diabetes 130-us hospitals for years 1999-2008,diabetes 130-us hospitals for years 1999-2008\diabetic_data.csv,datasets\processed\diabetes_130_us_hospitals_for_years_1999_2008\diabetes_130_us_hospitals_for_years_1999_2008.csv,101766,50,change,2,374017,10,26,13,OK
+dry_bean_dataset,dry_bean_dataset\Dry_Bean_Dataset.arff,datasets\processed\dry_bean_dataset\dry_bean_dataset.csv,13611,17,Class,7,0,0,0,16,OK
+ecoli,ecoli\ecoli.data,datasets\processed\ecoli\ecoli.csv,336,9,class,8,0,2,1,5,OK
+glass_identification,glass_identification\glass.data,datasets\processed\glass_identification\glass_identification.csv,214,11,Type,6,0,0,0,10,OK
+haberman_s_survival,haberman_s_survival\haberman.data,datasets\processed\haberman_s_survival\haberman_s_survival.csv,306,4,survival_status,2,0,0,0,3,OK
+heart_disease,heart_disease\processed.cleveland.data,datasets\processed\heart_disease\heart_disease.csv,303,14,target,5,6,3,0,10,OK
+heart_failure_clinical_records,heart_failure_clinical_records\heart_failure_clinical_records_dataset.csv,datasets\processed\heart_failure_clinical_records\heart_failure_clinical_records.csv,299,13,DEATH_EVENT,2,0,5,0,7,OK
+hepatitis,hepatitis\hepatitis.data,datasets\processed\hepatitis\hepatitis.csv,155,20,Class,2,167,13,0,6,OK
+ilpd_indian_liver_patient_dataset,ilpd_indian_liver_patient_dataset\Indian Liver Patient Dataset (ILPD).csv,datasets\processed\ilpd_indian_liver_patient_dataset\ilpd_indian_liver_patient_dataset.csv,583,11,Dataset,2,4,1,0,9,OK
+internet_advertisements,internet_advertisements\ad.data,datasets\processed\internet_advertisements\internet_advertisements.csv,3279,1559,class,2,15,1555,3,0,OK
+mushroom,mushroom\agaricus-lepiota.data,datasets\processed\mushroom\mushroom.csv,8124,23,class,2,2480,6,16,0,OK
+predict_students_dropout_and_academic_success,predict_students_dropout_and_academic_success\data.csv,datasets\processed\predict_students_dropout_and_academic_success\predict_students_dropout_and_academic_success.csv,4424,37,Target,3,0,8,0,28,OK
+productivity_prediction_of_garment_employees,productivity_prediction_of_garment_employees\garments_worker_productivity.csv,datasets\processed\productivity_prediction_of_garment_employees\productivity_prediction_of_garment_employees.csv,1197,15,actual_productivity,879,506,0,4,10,OK

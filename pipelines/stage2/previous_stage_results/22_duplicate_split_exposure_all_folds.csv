@@ -1,0 +1,326 @@
+﻿dataset,display_name,seed,fold,cv_protocol,test_rows,test_rows_with_identical_predictor_in_training,exposure_pct,conflicting_duplicate_test_rows_exposed
+cardiotocography,Fetal Health,13,1,StratifiedKFold_10,213,2,0.9389671361502347,0
+cardiotocography,Fetal Health,13,2,StratifiedKFold_10,213,3,1.408450704225352,0
+cardiotocography,Fetal Health,13,3,StratifiedKFold_10,213,2,0.9389671361502347,0
+cardiotocography,Fetal Health,13,4,StratifiedKFold_10,213,5,2.347417840375587,0
+cardiotocography,Fetal Health,13,5,StratifiedKFold_10,213,2,0.9389671361502347,0
+cardiotocography,Fetal Health,13,6,StratifiedKFold_10,213,3,1.408450704225352,1
+cardiotocography,Fetal Health,13,7,StratifiedKFold_10,212,3,1.4150943396226414,0
+cardiotocography,Fetal Health,13,8,StratifiedKFold_10,212,4,1.8867924528301887,1
+cardiotocography,Fetal Health,13,9,StratifiedKFold_10,212,2,0.9433962264150944,0
+cardiotocography,Fetal Health,13,10,StratifiedKFold_10,212,2,0.9433962264150944,0
+cardiotocography,Fetal Health,13,0,StratifiedKFold_10,2126,28,1.317027281279398,2
+cardiotocography,Fetal Health,21,1,StratifiedKFold_10,213,1,0.4694835680751174,0
+cardiotocography,Fetal Health,21,2,StratifiedKFold_10,213,3,1.408450704225352,0
+cardiotocography,Fetal Health,21,3,StratifiedKFold_10,213,4,1.8779342723004695,0
+cardiotocography,Fetal Health,21,4,StratifiedKFold_10,213,6,2.816901408450704,1
+cardiotocography,Fetal Health,21,5,StratifiedKFold_10,213,4,1.8779342723004695,0
+cardiotocography,Fetal Health,21,6,StratifiedKFold_10,213,3,1.408450704225352,2
+cardiotocography,Fetal Health,21,7,StratifiedKFold_10,212,1,0.4716981132075472,0
+cardiotocography,Fetal Health,21,8,StratifiedKFold_10,212,3,1.4150943396226414,1
+cardiotocography,Fetal Health,21,9,StratifiedKFold_10,212,3,1.4150943396226414,0
+cardiotocography,Fetal Health,21,10,StratifiedKFold_10,212,2,0.9433962264150944,0
+cardiotocography,Fetal Health,21,0,StratifiedKFold_10,2126,30,1.4111006585136407,4
+cardiotocography,Fetal Health,42,1,StratifiedKFold_10,213,3,1.408450704225352,0
+cardiotocography,Fetal Health,42,2,StratifiedKFold_10,213,3,1.408450704225352,1
+cardiotocography,Fetal Health,42,3,StratifiedKFold_10,213,3,1.408450704225352,0
+cardiotocography,Fetal Health,42,4,StratifiedKFold_10,213,4,1.8779342723004695,1
+cardiotocography,Fetal Health,42,5,StratifiedKFold_10,213,4,1.8779342723004695,0
+cardiotocography,Fetal Health,42,6,StratifiedKFold_10,213,3,1.408450704225352,1
+cardiotocography,Fetal Health,42,7,StratifiedKFold_10,212,2,0.9433962264150944,0
+cardiotocography,Fetal Health,42,8,StratifiedKFold_10,212,3,1.4150943396226414,1
+cardiotocography,Fetal Health,42,9,StratifiedKFold_10,212,2,0.9433962264150944,0
+cardiotocography,Fetal Health,42,10,StratifiedKFold_10,212,3,1.4150943396226414,0
+cardiotocography,Fetal Health,42,0,StratifiedKFold_10,2126,30,1.4111006585136407,4
+cardiotocography,Fetal Health,87,1,StratifiedKFold_10,213,2,0.9389671361502347,0
+cardiotocography,Fetal Health,87,2,StratifiedKFold_10,213,3,1.408450704225352,0
+cardiotocography,Fetal Health,87,3,StratifiedKFold_10,213,4,1.8779342723004695,2
+cardiotocography,Fetal Health,87,4,StratifiedKFold_10,213,3,1.408450704225352,0
+cardiotocography,Fetal Health,87,5,StratifiedKFold_10,213,3,1.408450704225352,0
+cardiotocography,Fetal Health,87,6,StratifiedKFold_10,213,1,0.4694835680751174,0
+cardiotocography,Fetal Health,87,7,StratifiedKFold_10,212,3,1.4150943396226414,1
+cardiotocography,Fetal Health,87,8,StratifiedKFold_10,212,3,1.4150943396226414,1
+cardiotocography,Fetal Health,87,9,StratifiedKFold_10,212,3,1.4150943396226414,0
+cardiotocography,Fetal Health,87,10,StratifiedKFold_10,212,3,1.4150943396226414,0
+cardiotocography,Fetal Health,87,0,StratifiedKFold_10,2126,28,1.317027281279398,4
+cardiotocography,Fetal Health,123,1,StratifiedKFold_10,213,5,2.347417840375587,2
+cardiotocography,Fetal Health,123,2,StratifiedKFold_10,213,3,1.408450704225352,0
+cardiotocography,Fetal Health,123,3,StratifiedKFold_10,213,2,0.9389671361502347,1
+cardiotocography,Fetal Health,123,4,StratifiedKFold_10,213,5,2.347417840375587,0
+cardiotocography,Fetal Health,123,5,StratifiedKFold_10,213,2,0.9389671361502347,0
+cardiotocography,Fetal Health,123,6,StratifiedKFold_10,213,4,1.8779342723004695,1
+cardiotocography,Fetal Health,123,7,StratifiedKFold_10,212,4,1.8867924528301887,0
+cardiotocography,Fetal Health,123,8,StratifiedKFold_10,212,2,0.9433962264150944,0
+cardiotocography,Fetal Health,123,9,StratifiedKFold_10,212,2,0.9433962264150944,0
+cardiotocography,Fetal Health,123,10,StratifiedKFold_10,212,1,0.4716981132075472,0
+cardiotocography,Fetal Health,123,0,StratifiedKFold_10,2126,30,1.4111006585136407,4
+dry_bean_dataset,Dry Beans,13,1,StratifiedKFold_10,1362,12,0.8810572687224669,0
+dry_bean_dataset,Dry Beans,13,2,StratifiedKFold_10,1361,8,0.5878030859662013,0
+dry_bean_dataset,Dry Beans,13,3,StratifiedKFold_10,1361,11,0.8082292432035268,0
+dry_bean_dataset,Dry Beans,13,4,StratifiedKFold_10,1361,18,1.322556943423953,0
+dry_bean_dataset,Dry Beans,13,5,StratifiedKFold_10,1361,15,1.1021307861866274,0
+dry_bean_dataset,Dry Beans,13,6,StratifiedKFold_10,1361,15,1.1021307861866274,0
+dry_bean_dataset,Dry Beans,13,7,StratifiedKFold_10,1361,13,0.9551800146950772,0
+dry_bean_dataset,Dry Beans,13,8,StratifiedKFold_10,1361,12,0.881704628949302,0
+dry_bean_dataset,Dry Beans,13,9,StratifiedKFold_10,1361,8,0.5878030859662013,0
+dry_bean_dataset,Dry Beans,13,10,StratifiedKFold_10,1361,8,0.5878030859662013,0
+dry_bean_dataset,Dry Beans,13,0,StratifiedKFold_10,13611,120,0.8816398501212255,0
+dry_bean_dataset,Dry Beans,21,1,StratifiedKFold_10,1362,9,0.6607929515418502,0
+dry_bean_dataset,Dry Beans,21,2,StratifiedKFold_10,1361,14,1.0286554004408524,0
+dry_bean_dataset,Dry Beans,21,3,StratifiedKFold_10,1361,12,0.881704628949302,0
+dry_bean_dataset,Dry Beans,21,4,StratifiedKFold_10,1361,6,0.440852314474651,0
+dry_bean_dataset,Dry Beans,21,5,StratifiedKFold_10,1361,13,0.9551800146950772,0
+dry_bean_dataset,Dry Beans,21,6,StratifiedKFold_10,1361,14,1.0286554004408524,0
+dry_bean_dataset,Dry Beans,21,7,StratifiedKFold_10,1361,16,1.1756061719324027,0
+dry_bean_dataset,Dry Beans,21,8,StratifiedKFold_10,1361,13,0.9551800146950772,0
+dry_bean_dataset,Dry Beans,21,9,StratifiedKFold_10,1361,15,1.1021307861866274,0
+dry_bean_dataset,Dry Beans,21,10,StratifiedKFold_10,1361,14,1.0286554004408524,0
+dry_bean_dataset,Dry Beans,21,0,StratifiedKFold_10,13611,126,0.9257218426272867,0
+dry_bean_dataset,Dry Beans,42,1,StratifiedKFold_10,1362,9,0.6607929515418502,0
+dry_bean_dataset,Dry Beans,42,2,StratifiedKFold_10,1361,9,0.6612784717119765,0
+dry_bean_dataset,Dry Beans,42,3,StratifiedKFold_10,1361,14,1.0286554004408524,0
+dry_bean_dataset,Dry Beans,42,4,StratifiedKFold_10,1361,19,1.396032329169728,0
+dry_bean_dataset,Dry Beans,42,5,StratifiedKFold_10,1361,13,0.9551800146950772,0
+dry_bean_dataset,Dry Beans,42,6,StratifiedKFold_10,1361,14,1.0286554004408524,0
+dry_bean_dataset,Dry Beans,42,7,StratifiedKFold_10,1361,9,0.6612784717119765,0
+dry_bean_dataset,Dry Beans,42,8,StratifiedKFold_10,1361,15,1.1021307861866274,0
+dry_bean_dataset,Dry Beans,42,9,StratifiedKFold_10,1361,15,1.1021307861866274,0
+dry_bean_dataset,Dry Beans,42,10,StratifiedKFold_10,1361,7,0.5143277002204262,0
+dry_bean_dataset,Dry Beans,42,0,StratifiedKFold_10,13611,124,0.9110278451252664,0
+dry_bean_dataset,Dry Beans,87,1,StratifiedKFold_10,1362,11,0.8076358296622613,0
+dry_bean_dataset,Dry Beans,87,2,StratifiedKFold_10,1361,13,0.9551800146950772,0
+dry_bean_dataset,Dry Beans,87,3,StratifiedKFold_10,1361,14,1.0286554004408524,0
+dry_bean_dataset,Dry Beans,87,4,StratifiedKFold_10,1361,11,0.8082292432035268,0
+dry_bean_dataset,Dry Beans,87,5,StratifiedKFold_10,1361,11,0.8082292432035268,0
+dry_bean_dataset,Dry Beans,87,6,StratifiedKFold_10,1361,12,0.881704628949302,0
+dry_bean_dataset,Dry Beans,87,7,StratifiedKFold_10,1361,12,0.881704628949302,0
+dry_bean_dataset,Dry Beans,87,8,StratifiedKFold_10,1361,11,0.8082292432035268,0
+dry_bean_dataset,Dry Beans,87,9,StratifiedKFold_10,1361,15,1.1021307861866274,0
+dry_bean_dataset,Dry Beans,87,10,StratifiedKFold_10,1361,10,0.7347538574577517,0
+dry_bean_dataset,Dry Beans,87,0,StratifiedKFold_10,13611,120,0.8816398501212255,0
+dry_bean_dataset,Dry Beans,123,1,StratifiedKFold_10,1362,10,0.7342143906020558,0
+dry_bean_dataset,Dry Beans,123,2,StratifiedKFold_10,1361,14,1.0286554004408524,0
+dry_bean_dataset,Dry Beans,123,3,StratifiedKFold_10,1361,11,0.8082292432035268,0
+dry_bean_dataset,Dry Beans,123,4,StratifiedKFold_10,1361,10,0.7347538574577517,0
+dry_bean_dataset,Dry Beans,123,5,StratifiedKFold_10,1361,10,0.7347538574577517,0
+dry_bean_dataset,Dry Beans,123,6,StratifiedKFold_10,1361,9,0.6612784717119765,0
+dry_bean_dataset,Dry Beans,123,7,StratifiedKFold_10,1361,12,0.881704628949302,0
+dry_bean_dataset,Dry Beans,123,8,StratifiedKFold_10,1361,14,1.0286554004408524,0
+dry_bean_dataset,Dry Beans,123,9,StratifiedKFold_10,1361,13,0.9551800146950772,0
+dry_bean_dataset,Dry Beans,123,10,StratifiedKFold_10,1361,15,1.1021307861866274,0
+dry_bean_dataset,Dry Beans,123,0,StratifiedKFold_10,13611,118,0.8669458526192051,0
+glass_identification,Glass Identification,13,1,StratifiedKFold_adjusted_9,24,0,0.0,0
+glass_identification,Glass Identification,13,2,StratifiedKFold_adjusted_9,24,0,0.0,0
+glass_identification,Glass Identification,13,3,StratifiedKFold_adjusted_9,24,0,0.0,0
+glass_identification,Glass Identification,13,4,StratifiedKFold_adjusted_9,24,0,0.0,0
+glass_identification,Glass Identification,13,5,StratifiedKFold_adjusted_9,24,0,0.0,0
+glass_identification,Glass Identification,13,6,StratifiedKFold_adjusted_9,24,0,0.0,0
+glass_identification,Glass Identification,13,7,StratifiedKFold_adjusted_9,24,0,0.0,0
+glass_identification,Glass Identification,13,8,StratifiedKFold_adjusted_9,23,0,0.0,0
+glass_identification,Glass Identification,13,9,StratifiedKFold_adjusted_9,23,0,0.0,0
+glass_identification,Glass Identification,13,0,StratifiedKFold_adjusted_9,214,0,0.0,0
+glass_identification,Glass Identification,21,1,StratifiedKFold_adjusted_9,24,0,0.0,0
+glass_identification,Glass Identification,21,2,StratifiedKFold_adjusted_9,24,0,0.0,0
+glass_identification,Glass Identification,21,3,StratifiedKFold_adjusted_9,24,0,0.0,0
+glass_identification,Glass Identification,21,4,StratifiedKFold_adjusted_9,24,1,4.166666666666667,0
+glass_identification,Glass Identification,21,5,StratifiedKFold_adjusted_9,24,1,4.166666666666667,0
+glass_identification,Glass Identification,21,6,StratifiedKFold_adjusted_9,24,0,0.0,0
+glass_identification,Glass Identification,21,7,StratifiedKFold_adjusted_9,24,0,0.0,0
+glass_identification,Glass Identification,21,8,StratifiedKFold_adjusted_9,23,0,0.0,0
+glass_identification,Glass Identification,21,9,StratifiedKFold_adjusted_9,23,0,0.0,0
+glass_identification,Glass Identification,21,0,StratifiedKFold_adjusted_9,214,2,0.9345794392523364,0
+glass_identification,Glass Identification,42,1,StratifiedKFold_adjusted_9,24,0,0.0,0
+glass_identification,Glass Identification,42,2,StratifiedKFold_adjusted_9,24,1,4.166666666666667,0
+glass_identification,Glass Identification,42,3,StratifiedKFold_adjusted_9,24,0,0.0,0
+glass_identification,Glass Identification,42,4,StratifiedKFold_adjusted_9,24,0,0.0,0
+glass_identification,Glass Identification,42,5,StratifiedKFold_adjusted_9,24,0,0.0,0
+glass_identification,Glass Identification,42,6,StratifiedKFold_adjusted_9,24,0,0.0,0
+glass_identification,Glass Identification,42,7,StratifiedKFold_adjusted_9,24,1,4.166666666666667,0
+glass_identification,Glass Identification,42,8,StratifiedKFold_adjusted_9,23,0,0.0,0
+glass_identification,Glass Identification,42,9,StratifiedKFold_adjusted_9,23,0,0.0,0
+glass_identification,Glass Identification,42,0,StratifiedKFold_adjusted_9,214,2,0.9345794392523364,0
+glass_identification,Glass Identification,87,1,StratifiedKFold_adjusted_9,24,0,0.0,0
+glass_identification,Glass Identification,87,2,StratifiedKFold_adjusted_9,24,0,0.0,0
+glass_identification,Glass Identification,87,3,StratifiedKFold_adjusted_9,24,0,0.0,0
+glass_identification,Glass Identification,87,4,StratifiedKFold_adjusted_9,24,0,0.0,0
+glass_identification,Glass Identification,87,5,StratifiedKFold_adjusted_9,24,0,0.0,0
+glass_identification,Glass Identification,87,6,StratifiedKFold_adjusted_9,24,1,4.166666666666667,0
+glass_identification,Glass Identification,87,7,StratifiedKFold_adjusted_9,24,0,0.0,0
+glass_identification,Glass Identification,87,8,StratifiedKFold_adjusted_9,23,0,0.0,0
+glass_identification,Glass Identification,87,9,StratifiedKFold_adjusted_9,23,1,4.3478260869565215,0
+glass_identification,Glass Identification,87,0,StratifiedKFold_adjusted_9,214,2,0.9345794392523364,0
+glass_identification,Glass Identification,123,1,StratifiedKFold_adjusted_9,24,0,0.0,0
+glass_identification,Glass Identification,123,2,StratifiedKFold_adjusted_9,24,0,0.0,0
+glass_identification,Glass Identification,123,3,StratifiedKFold_adjusted_9,24,0,0.0,0
+glass_identification,Glass Identification,123,4,StratifiedKFold_adjusted_9,24,0,0.0,0
+glass_identification,Glass Identification,123,5,StratifiedKFold_adjusted_9,24,0,0.0,0
+glass_identification,Glass Identification,123,6,StratifiedKFold_adjusted_9,24,0,0.0,0
+glass_identification,Glass Identification,123,7,StratifiedKFold_adjusted_9,24,0,0.0,0
+glass_identification,Glass Identification,123,8,StratifiedKFold_adjusted_9,23,0,0.0,0
+glass_identification,Glass Identification,123,9,StratifiedKFold_adjusted_9,23,0,0.0,0
+glass_identification,Glass Identification,123,0,StratifiedKFold_adjusted_9,214,0,0.0,0
+haberman_s_survival,Haberman Survival,13,1,StratifiedKFold_10,31,4,12.903225806451612,2
+haberman_s_survival,Haberman Survival,13,2,StratifiedKFold_10,31,5,16.129032258064516,1
+haberman_s_survival,Haberman Survival,13,3,StratifiedKFold_10,31,5,16.129032258064516,0
+haberman_s_survival,Haberman Survival,13,4,StratifiedKFold_10,31,4,12.903225806451612,1
+haberman_s_survival,Haberman Survival,13,5,StratifiedKFold_10,31,6,19.35483870967742,3
+haberman_s_survival,Haberman Survival,13,6,StratifiedKFold_10,31,1,3.225806451612903,0
+haberman_s_survival,Haberman Survival,13,7,StratifiedKFold_10,30,4,13.333333333333334,0
+haberman_s_survival,Haberman Survival,13,8,StratifiedKFold_10,30,4,13.333333333333334,2
+haberman_s_survival,Haberman Survival,13,9,StratifiedKFold_10,30,3,10.0,1
+haberman_s_survival,Haberman Survival,13,10,StratifiedKFold_10,30,5,16.666666666666668,0
+haberman_s_survival,Haberman Survival,13,0,StratifiedKFold_10,306,41,13.398692810457517,10
+haberman_s_survival,Haberman Survival,21,1,StratifiedKFold_10,31,4,12.903225806451612,3
+haberman_s_survival,Haberman Survival,21,2,StratifiedKFold_10,31,4,12.903225806451612,0
+haberman_s_survival,Haberman Survival,21,3,StratifiedKFold_10,31,4,12.903225806451612,1
+haberman_s_survival,Haberman Survival,21,4,StratifiedKFold_10,31,5,16.129032258064516,1
+haberman_s_survival,Haberman Survival,21,5,StratifiedKFold_10,31,3,9.67741935483871,0
+haberman_s_survival,Haberman Survival,21,6,StratifiedKFold_10,31,6,19.35483870967742,1
+haberman_s_survival,Haberman Survival,21,7,StratifiedKFold_10,30,6,20.0,2
+haberman_s_survival,Haberman Survival,21,8,StratifiedKFold_10,30,2,6.666666666666667,1
+haberman_s_survival,Haberman Survival,21,9,StratifiedKFold_10,30,3,10.0,1
+haberman_s_survival,Haberman Survival,21,10,StratifiedKFold_10,30,4,13.333333333333334,2
+haberman_s_survival,Haberman Survival,21,0,StratifiedKFold_10,306,41,13.398692810457517,12
+haberman_s_survival,Haberman Survival,42,1,StratifiedKFold_10,31,6,19.35483870967742,2
+haberman_s_survival,Haberman Survival,42,2,StratifiedKFold_10,31,4,12.903225806451612,0
+haberman_s_survival,Haberman Survival,42,3,StratifiedKFold_10,31,3,9.67741935483871,2
+haberman_s_survival,Haberman Survival,42,4,StratifiedKFold_10,31,5,16.129032258064516,3
+haberman_s_survival,Haberman Survival,42,5,StratifiedKFold_10,31,2,6.451612903225806,1
+haberman_s_survival,Haberman Survival,42,6,StratifiedKFold_10,31,3,9.67741935483871,1
+haberman_s_survival,Haberman Survival,42,7,StratifiedKFold_10,30,5,16.666666666666668,2
+haberman_s_survival,Haberman Survival,42,8,StratifiedKFold_10,30,5,16.666666666666668,0
+haberman_s_survival,Haberman Survival,42,9,StratifiedKFold_10,30,3,10.0,1
+haberman_s_survival,Haberman Survival,42,10,StratifiedKFold_10,30,2,6.666666666666667,0
+haberman_s_survival,Haberman Survival,42,0,StratifiedKFold_10,306,38,12.418300653594772,12
+haberman_s_survival,Haberman Survival,87,1,StratifiedKFold_10,31,4,12.903225806451612,2
+haberman_s_survival,Haberman Survival,87,2,StratifiedKFold_10,31,6,19.35483870967742,0
+haberman_s_survival,Haberman Survival,87,3,StratifiedKFold_10,31,1,3.225806451612903,0
+haberman_s_survival,Haberman Survival,87,4,StratifiedKFold_10,31,5,16.129032258064516,2
+haberman_s_survival,Haberman Survival,87,5,StratifiedKFold_10,31,6,19.35483870967742,1
+haberman_s_survival,Haberman Survival,87,6,StratifiedKFold_10,31,5,16.129032258064516,2
+haberman_s_survival,Haberman Survival,87,7,StratifiedKFold_10,30,6,20.0,2
+haberman_s_survival,Haberman Survival,87,8,StratifiedKFold_10,30,4,13.333333333333334,1
+haberman_s_survival,Haberman Survival,87,9,StratifiedKFold_10,30,1,3.3333333333333335,0
+haberman_s_survival,Haberman Survival,87,10,StratifiedKFold_10,30,5,16.666666666666668,2
+haberman_s_survival,Haberman Survival,87,0,StratifiedKFold_10,306,43,14.052287581699346,12
+haberman_s_survival,Haberman Survival,123,1,StratifiedKFold_10,31,4,12.903225806451612,0
+haberman_s_survival,Haberman Survival,123,2,StratifiedKFold_10,31,6,19.35483870967742,2
+haberman_s_survival,Haberman Survival,123,3,StratifiedKFold_10,31,6,19.35483870967742,3
+haberman_s_survival,Haberman Survival,123,4,StratifiedKFold_10,31,3,9.67741935483871,1
+haberman_s_survival,Haberman Survival,123,5,StratifiedKFold_10,31,4,12.903225806451612,1
+haberman_s_survival,Haberman Survival,123,6,StratifiedKFold_10,31,3,9.67741935483871,0
+haberman_s_survival,Haberman Survival,123,7,StratifiedKFold_10,30,4,13.333333333333334,1
+haberman_s_survival,Haberman Survival,123,8,StratifiedKFold_10,30,4,13.333333333333334,0
+haberman_s_survival,Haberman Survival,123,9,StratifiedKFold_10,30,4,13.333333333333334,2
+haberman_s_survival,Haberman Survival,123,10,StratifiedKFold_10,30,3,10.0,0
+haberman_s_survival,Haberman Survival,123,0,StratifiedKFold_10,306,41,13.398692810457517,10
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,13,1,StratifiedKFold_10,59,1,1.694915254237288,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,13,2,StratifiedKFold_10,59,3,5.084745762711864,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,13,3,StratifiedKFold_10,59,3,5.084745762711864,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,13,4,StratifiedKFold_10,58,3,5.172413793103448,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,13,5,StratifiedKFold_10,58,3,5.172413793103448,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,13,6,StratifiedKFold_10,58,2,3.4482758620689653,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,13,7,StratifiedKFold_10,58,0,0.0,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,13,8,StratifiedKFold_10,58,3,5.172413793103448,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,13,9,StratifiedKFold_10,58,2,3.4482758620689653,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,13,10,StratifiedKFold_10,58,2,3.4482758620689653,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,13,0,StratifiedKFold_10,583,22,3.7735849056603774,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,21,1,StratifiedKFold_10,59,3,5.084745762711864,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,21,2,StratifiedKFold_10,59,1,1.694915254237288,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,21,3,StratifiedKFold_10,59,2,3.389830508474576,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,21,4,StratifiedKFold_10,58,5,8.620689655172415,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,21,5,StratifiedKFold_10,58,1,1.7241379310344827,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,21,6,StratifiedKFold_10,58,4,6.896551724137931,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,21,7,StratifiedKFold_10,58,3,5.172413793103448,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,21,8,StratifiedKFold_10,58,2,3.4482758620689653,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,21,9,StratifiedKFold_10,58,1,1.7241379310344827,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,21,10,StratifiedKFold_10,58,2,3.4482758620689653,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,21,0,StratifiedKFold_10,583,24,4.11663807890223,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,42,1,StratifiedKFold_10,59,4,6.779661016949152,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,42,2,StratifiedKFold_10,59,2,3.389830508474576,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,42,3,StratifiedKFold_10,59,1,1.694915254237288,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,42,4,StratifiedKFold_10,58,2,3.4482758620689653,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,42,5,StratifiedKFold_10,58,3,5.172413793103448,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,42,6,StratifiedKFold_10,58,2,3.4482758620689653,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,42,7,StratifiedKFold_10,58,1,1.7241379310344827,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,42,8,StratifiedKFold_10,58,4,6.896551724137931,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,42,9,StratifiedKFold_10,58,3,5.172413793103448,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,42,10,StratifiedKFold_10,58,4,6.896551724137931,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,42,0,StratifiedKFold_10,583,26,4.459691252144082,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,87,1,StratifiedKFold_10,59,1,1.694915254237288,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,87,2,StratifiedKFold_10,59,3,5.084745762711864,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,87,3,StratifiedKFold_10,59,2,3.389830508474576,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,87,4,StratifiedKFold_10,58,3,5.172413793103448,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,87,5,StratifiedKFold_10,58,4,6.896551724137931,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,87,6,StratifiedKFold_10,58,2,3.4482758620689653,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,87,7,StratifiedKFold_10,58,2,3.4482758620689653,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,87,8,StratifiedKFold_10,58,2,3.4482758620689653,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,87,9,StratifiedKFold_10,58,2,3.4482758620689653,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,87,10,StratifiedKFold_10,58,5,8.620689655172415,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,87,0,StratifiedKFold_10,583,26,4.459691252144082,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,123,1,StratifiedKFold_10,59,1,1.694915254237288,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,123,2,StratifiedKFold_10,59,2,3.389830508474576,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,123,3,StratifiedKFold_10,59,2,3.389830508474576,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,123,4,StratifiedKFold_10,58,3,5.172413793103448,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,123,5,StratifiedKFold_10,58,3,5.172413793103448,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,123,6,StratifiedKFold_10,58,3,5.172413793103448,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,123,7,StratifiedKFold_10,58,4,6.896551724137931,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,123,8,StratifiedKFold_10,58,2,3.4482758620689653,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,123,9,StratifiedKFold_10,58,2,3.4482758620689653,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,123,10,StratifiedKFold_10,58,4,6.896551724137931,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,123,0,StratifiedKFold_10,583,26,4.459691252144082,0
+internet_advertisements,Internet Ads,13,1,StratifiedKFold_10,328,118,35.97560975609756,6
+internet_advertisements,Internet Ads,13,2,StratifiedKFold_10,328,108,32.926829268292686,4
+internet_advertisements,Internet Ads,13,3,StratifiedKFold_10,328,108,32.926829268292686,5
+internet_advertisements,Internet Ads,13,4,StratifiedKFold_10,328,109,33.23170731707317,8
+internet_advertisements,Internet Ads,13,5,StratifiedKFold_10,328,112,34.146341463414636,4
+internet_advertisements,Internet Ads,13,6,StratifiedKFold_10,328,116,35.36585365853659,5
+internet_advertisements,Internet Ads,13,7,StratifiedKFold_10,328,105,32.01219512195122,4
+internet_advertisements,Internet Ads,13,8,StratifiedKFold_10,328,110,33.53658536585366,3
+internet_advertisements,Internet Ads,13,9,StratifiedKFold_10,328,96,29.26829268292683,4
+internet_advertisements,Internet Ads,13,10,StratifiedKFold_10,327,122,37.308868501529055,11
+internet_advertisements,Internet Ads,13,0,StratifiedKFold_10,3279,1104,33.66880146386093,54
+internet_advertisements,Internet Ads,21,1,StratifiedKFold_10,328,109,33.23170731707317,4
+internet_advertisements,Internet Ads,21,2,StratifiedKFold_10,328,103,31.402439024390244,8
+internet_advertisements,Internet Ads,21,3,StratifiedKFold_10,328,104,31.70731707317073,6
+internet_advertisements,Internet Ads,21,4,StratifiedKFold_10,328,115,35.0609756097561,3
+internet_advertisements,Internet Ads,21,5,StratifiedKFold_10,328,107,32.6219512195122,1
+internet_advertisements,Internet Ads,21,6,StratifiedKFold_10,328,112,34.146341463414636,9
+internet_advertisements,Internet Ads,21,7,StratifiedKFold_10,328,122,37.19512195121951,5
+internet_advertisements,Internet Ads,21,8,StratifiedKFold_10,328,109,33.23170731707317,5
+internet_advertisements,Internet Ads,21,9,StratifiedKFold_10,328,113,34.451219512195124,9
+internet_advertisements,Internet Ads,21,10,StratifiedKFold_10,327,115,35.16819571865443,4
+internet_advertisements,Internet Ads,21,0,StratifiedKFold_10,3279,1109,33.82128697773712,54
+internet_advertisements,Internet Ads,42,1,StratifiedKFold_10,328,103,31.402439024390244,4
+internet_advertisements,Internet Ads,42,2,StratifiedKFold_10,328,98,29.878048780487806,7
+internet_advertisements,Internet Ads,42,3,StratifiedKFold_10,328,117,35.670731707317074,6
+internet_advertisements,Internet Ads,42,4,StratifiedKFold_10,328,124,37.80487804878049,9
+internet_advertisements,Internet Ads,42,5,StratifiedKFold_10,328,107,32.6219512195122,6
+internet_advertisements,Internet Ads,42,6,StratifiedKFold_10,328,126,38.41463414634146,1
+internet_advertisements,Internet Ads,42,7,StratifiedKFold_10,328,110,33.53658536585366,5
+internet_advertisements,Internet Ads,42,8,StratifiedKFold_10,328,95,28.963414634146343,3
+internet_advertisements,Internet Ads,42,9,StratifiedKFold_10,328,97,29.573170731707318,4
+internet_advertisements,Internet Ads,42,10,StratifiedKFold_10,327,126,38.53211009174312,9
+internet_advertisements,Internet Ads,42,0,StratifiedKFold_10,3279,1103,33.638304361085694,54
+internet_advertisements,Internet Ads,87,1,StratifiedKFold_10,328,121,36.890243902439025,8
+internet_advertisements,Internet Ads,87,2,StratifiedKFold_10,328,113,34.451219512195124,4
+internet_advertisements,Internet Ads,87,3,StratifiedKFold_10,328,113,34.451219512195124,8
+internet_advertisements,Internet Ads,87,4,StratifiedKFold_10,328,113,34.451219512195124,5
+internet_advertisements,Internet Ads,87,5,StratifiedKFold_10,328,93,28.353658536585368,2
+internet_advertisements,Internet Ads,87,6,StratifiedKFold_10,328,105,32.01219512195122,3
+internet_advertisements,Internet Ads,87,7,StratifiedKFold_10,328,110,33.53658536585366,7
+internet_advertisements,Internet Ads,87,8,StratifiedKFold_10,328,110,33.53658536585366,3
+internet_advertisements,Internet Ads,87,9,StratifiedKFold_10,328,114,34.75609756097561,5
+internet_advertisements,Internet Ads,87,10,StratifiedKFold_10,327,118,36.08562691131498,9
+internet_advertisements,Internet Ads,87,0,StratifiedKFold_10,3279,1110,33.85178408051235,54
+internet_advertisements,Internet Ads,123,1,StratifiedKFold_10,328,106,32.31707317073171,4
+internet_advertisements,Internet Ads,123,2,StratifiedKFold_10,328,115,35.0609756097561,5
+internet_advertisements,Internet Ads,123,3,StratifiedKFold_10,328,107,32.6219512195122,7
+internet_advertisements,Internet Ads,123,4,StratifiedKFold_10,328,111,33.84146341463415,4
+internet_advertisements,Internet Ads,123,5,StratifiedKFold_10,328,110,33.53658536585366,5
+internet_advertisements,Internet Ads,123,6,StratifiedKFold_10,328,111,33.84146341463415,13
+internet_advertisements,Internet Ads,123,7,StratifiedKFold_10,328,98,29.878048780487806,3
+internet_advertisements,Internet Ads,123,8,StratifiedKFold_10,328,116,35.36585365853659,4
+internet_advertisements,Internet Ads,123,9,StratifiedKFold_10,328,106,32.31707317073171,3
+internet_advertisements,Internet Ads,123,10,StratifiedKFold_10,327,123,37.61467889908257,6
+internet_advertisements,Internet Ads,123,0,StratifiedKFold_10,3279,1103,33.638304361085694,54

@@ -1,0 +1,21 @@
+﻿dataset,display_name,rows_used,features_used,target,group_column,configured_dropped_columns,automatic_leakage_flags,critical_audit_issues,exact_duplicate_excess,rows_in_exact_duplicate_groups,feature_duplicate_excess,rows_in_feature_duplicate_groups,conflicting_feature_groups,rows_in_conflicting_feature_groups
+abalone,Abalone,4177,8,Rings,,,0,,0,0,0,0,0,0
+bank_marketing,Bank,45211,16,y,,,0,,0,0,0,0,0,0
+car_evaluation,Car Evaluation,1728,6,class,,,0,,0,0,0,0,0,0
+cardiotocography,Fetal Health,2126,21,NSP,,CLASS,0,,14,26,16,30,2,4
+chronic_kidney_disease,Kidney Disease,400,24,classification,,id,0,,0,0,0,0,0,0
+cirrhosis_patient_survival_prediction_dataset_1,Cirrhosis Survival,418,18,Status,,ID,0,,0,0,0,0,0,0
+credit_approval,Credit Approval,690,15,class,,,0,,0,0,0,0,0,0
+diabetes_130_us_hospitals_for_years_1999_2008,Diabetes,101766,47,readmitted,patient_nbr,"encounter_id, patient_nbr",0,,0,0,0,0,0,0
+dry_bean_dataset,Dry Beans,13611,16,Class,,,0,,68,136,68,136,0,0
+ecoli,E. coli,336,7,class,,sequence_name,0,,0,0,0,0,0,0
+glass_identification,Glass Identification,214,9,Type,,id,0,,1,2,1,2,0,0
+haberman_s_survival,Haberman Survival,306,3,survival_status,,,0,,17,33,23,45,6,12
+heart_disease,Heart Disease,303,13,target,,,0,,0,0,0,0,0,0
+heart_failure_clinical_records,Heart Failure,299,12,DEATH_EVENT,,,0,,0,0,0,0,0,0
+hepatitis,Hepatitis,155,19,Class,,,0,,0,0,0,0,0,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,583,10,Dataset,,,0,,13,26,13,26,0,0
+internet_advertisements,Internet Ads,3279,1558,class,,,0,,856,1133,859,1137,3,54
+mushroom,Mushroom,8124,22,class,,,0,,0,0,0,0,0,0
+predict_students_dropout_and_academic_success,Students,4424,36,Target,,,0,,0,0,0,0,0,0
+productivity_prediction_of_garment_employees,Productivity Prediction,1197,14,actual_productivity,,,0,,0,0,0,0,0,0

@@ -1,0 +1,101 @@
+﻿dataset,display_name,seed,fold,cv_protocol,test_rows,test_rows_with_identical_predictor_in_training,exposure_pct,conflicting_duplicate_test_rows_exposed
+cardiotocography,Fetal Health,13,0,StratifiedKFold_10,2126,28,1.317027281279398,2
+cardiotocography,Fetal Health,21,0,StratifiedKFold_10,2126,30,1.4111006585136407,4
+cardiotocography,Fetal Health,42,0,StratifiedKFold_10,2126,30,1.4111006585136407,4
+cardiotocography,Fetal Health,87,0,StratifiedKFold_10,2126,28,1.317027281279398,4
+cardiotocography,Fetal Health,123,0,StratifiedKFold_10,2126,30,1.4111006585136407,4
+dry_bean_dataset,Dry Beans,13,0,StratifiedKFold_10,13611,120,0.8816398501212255,0
+dry_bean_dataset,Dry Beans,21,0,StratifiedKFold_10,13611,126,0.9257218426272867,0
+dry_bean_dataset,Dry Beans,42,0,StratifiedKFold_10,13611,124,0.9110278451252664,0
+dry_bean_dataset,Dry Beans,87,0,StratifiedKFold_10,13611,120,0.8816398501212255,0
+dry_bean_dataset,Dry Beans,123,0,StratifiedKFold_10,13611,118,0.8669458526192051,0
+glass_identification,Glass Identification,13,0,StratifiedKFold_adjusted_9,214,0,0.0,0
+glass_identification,Glass Identification,21,0,StratifiedKFold_adjusted_9,214,2,0.9345794392523364,0
+glass_identification,Glass Identification,42,0,StratifiedKFold_adjusted_9,214,2,0.9345794392523364,0
+glass_identification,Glass Identification,87,0,StratifiedKFold_adjusted_9,214,2,0.9345794392523364,0
+glass_identification,Glass Identification,123,0,StratifiedKFold_adjusted_9,214,0,0.0,0
+haberman_s_survival,Haberman Survival,13,0,StratifiedKFold_10,306,41,13.398692810457517,10
+haberman_s_survival,Haberman Survival,21,0,StratifiedKFold_10,306,41,13.398692810457517,12
+haberman_s_survival,Haberman Survival,42,0,StratifiedKFold_10,306,38,12.418300653594772,12
+haberman_s_survival,Haberman Survival,87,0,StratifiedKFold_10,306,43,14.052287581699346,12
+haberman_s_survival,Haberman Survival,123,0,StratifiedKFold_10,306,41,13.398692810457517,10
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,13,0,StratifiedKFold_10,583,22,3.7735849056603774,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,21,0,StratifiedKFold_10,583,24,4.11663807890223,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,42,0,StratifiedKFold_10,583,26,4.459691252144082,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,87,0,StratifiedKFold_10,583,26,4.459691252144082,0
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,123,0,StratifiedKFold_10,583,26,4.459691252144082,0
+internet_advertisements,Internet Ads,13,0,StratifiedKFold_10,3279,1104,33.66880146386093,54
+internet_advertisements,Internet Ads,21,0,StratifiedKFold_10,3279,1109,33.82128697773712,54
+internet_advertisements,Internet Ads,42,0,StratifiedKFold_10,3279,1103,33.638304361085694,54
+internet_advertisements,Internet Ads,87,0,StratifiedKFold_10,3279,1110,33.85178408051235,54
+internet_advertisements,Internet Ads,123,0,StratifiedKFold_10,3279,1103,33.638304361085694,54
+abalone,Abalone,13,0,not_run_no_predictor_duplicates,4177,0,0.0,0
+abalone,Abalone,21,0,not_run_no_predictor_duplicates,4177,0,0.0,0
+abalone,Abalone,42,0,not_run_no_predictor_duplicates,4177,0,0.0,0
+abalone,Abalone,87,0,not_run_no_predictor_duplicates,4177,0,0.0,0
+abalone,Abalone,123,0,not_run_no_predictor_duplicates,4177,0,0.0,0
+bank_marketing,Bank,13,0,not_run_no_predictor_duplicates,45211,0,0.0,0
+bank_marketing,Bank,21,0,not_run_no_predictor_duplicates,45211,0,0.0,0
+bank_marketing,Bank,42,0,not_run_no_predictor_duplicates,45211,0,0.0,0
+bank_marketing,Bank,87,0,not_run_no_predictor_duplicates,45211,0,0.0,0
+bank_marketing,Bank,123,0,not_run_no_predictor_duplicates,45211,0,0.0,0
+car_evaluation,Car Evaluation,13,0,not_run_no_predictor_duplicates,1728,0,0.0,0
+car_evaluation,Car Evaluation,21,0,not_run_no_predictor_duplicates,1728,0,0.0,0
+car_evaluation,Car Evaluation,42,0,not_run_no_predictor_duplicates,1728,0,0.0,0
+car_evaluation,Car Evaluation,87,0,not_run_no_predictor_duplicates,1728,0,0.0,0
+car_evaluation,Car Evaluation,123,0,not_run_no_predictor_duplicates,1728,0,0.0,0
+chronic_kidney_disease,Kidney Disease,13,0,not_run_no_predictor_duplicates,400,0,0.0,0
+chronic_kidney_disease,Kidney Disease,21,0,not_run_no_predictor_duplicates,400,0,0.0,0
+chronic_kidney_disease,Kidney Disease,42,0,not_run_no_predictor_duplicates,400,0,0.0,0
+chronic_kidney_disease,Kidney Disease,87,0,not_run_no_predictor_duplicates,400,0,0.0,0
+chronic_kidney_disease,Kidney Disease,123,0,not_run_no_predictor_duplicates,400,0,0.0,0
+cirrhosis_patient_survival_prediction_dataset_1,Cirrhosis Survival,13,0,not_run_no_predictor_duplicates,418,0,0.0,0
+cirrhosis_patient_survival_prediction_dataset_1,Cirrhosis Survival,21,0,not_run_no_predictor_duplicates,418,0,0.0,0
+cirrhosis_patient_survival_prediction_dataset_1,Cirrhosis Survival,42,0,not_run_no_predictor_duplicates,418,0,0.0,0
+cirrhosis_patient_survival_prediction_dataset_1,Cirrhosis Survival,87,0,not_run_no_predictor_duplicates,418,0,0.0,0
+cirrhosis_patient_survival_prediction_dataset_1,Cirrhosis Survival,123,0,not_run_no_predictor_duplicates,418,0,0.0,0
+credit_approval,Credit Approval,13,0,not_run_no_predictor_duplicates,690,0,0.0,0
+credit_approval,Credit Approval,21,0,not_run_no_predictor_duplicates,690,0,0.0,0
+credit_approval,Credit Approval,42,0,not_run_no_predictor_duplicates,690,0,0.0,0
+credit_approval,Credit Approval,87,0,not_run_no_predictor_duplicates,690,0,0.0,0
+credit_approval,Credit Approval,123,0,not_run_no_predictor_duplicates,690,0,0.0,0
+diabetes_130_us_hospitals_for_years_1999_2008,Diabetes,13,0,not_run_no_predictor_duplicates,101766,0,0.0,0
+diabetes_130_us_hospitals_for_years_1999_2008,Diabetes,21,0,not_run_no_predictor_duplicates,101766,0,0.0,0
+diabetes_130_us_hospitals_for_years_1999_2008,Diabetes,42,0,not_run_no_predictor_duplicates,101766,0,0.0,0
+diabetes_130_us_hospitals_for_years_1999_2008,Diabetes,87,0,not_run_no_predictor_duplicates,101766,0,0.0,0
+diabetes_130_us_hospitals_for_years_1999_2008,Diabetes,123,0,not_run_no_predictor_duplicates,101766,0,0.0,0
+ecoli,E. coli,13,0,not_run_no_predictor_duplicates,336,0,0.0,0
+ecoli,E. coli,21,0,not_run_no_predictor_duplicates,336,0,0.0,0
+ecoli,E. coli,42,0,not_run_no_predictor_duplicates,336,0,0.0,0
+ecoli,E. coli,87,0,not_run_no_predictor_duplicates,336,0,0.0,0
+ecoli,E. coli,123,0,not_run_no_predictor_duplicates,336,0,0.0,0
+heart_disease,Heart Disease,13,0,not_run_no_predictor_duplicates,303,0,0.0,0
+heart_disease,Heart Disease,21,0,not_run_no_predictor_duplicates,303,0,0.0,0
+heart_disease,Heart Disease,42,0,not_run_no_predictor_duplicates,303,0,0.0,0
+heart_disease,Heart Disease,87,0,not_run_no_predictor_duplicates,303,0,0.0,0
+heart_disease,Heart Disease,123,0,not_run_no_predictor_duplicates,303,0,0.0,0
+heart_failure_clinical_records,Heart Failure,13,0,not_run_no_predictor_duplicates,299,0,0.0,0
+heart_failure_clinical_records,Heart Failure,21,0,not_run_no_predictor_duplicates,299,0,0.0,0
+heart_failure_clinical_records,Heart Failure,42,0,not_run_no_predictor_duplicates,299,0,0.0,0
+heart_failure_clinical_records,Heart Failure,87,0,not_run_no_predictor_duplicates,299,0,0.0,0
+heart_failure_clinical_records,Heart Failure,123,0,not_run_no_predictor_duplicates,299,0,0.0,0
+hepatitis,Hepatitis,13,0,not_run_no_predictor_duplicates,155,0,0.0,0
+hepatitis,Hepatitis,21,0,not_run_no_predictor_duplicates,155,0,0.0,0
+hepatitis,Hepatitis,42,0,not_run_no_predictor_duplicates,155,0,0.0,0
+hepatitis,Hepatitis,87,0,not_run_no_predictor_duplicates,155,0,0.0,0
+hepatitis,Hepatitis,123,0,not_run_no_predictor_duplicates,155,0,0.0,0
+mushroom,Mushroom,13,0,not_run_no_predictor_duplicates,8124,0,0.0,0
+mushroom,Mushroom,21,0,not_run_no_predictor_duplicates,8124,0,0.0,0
+mushroom,Mushroom,42,0,not_run_no_predictor_duplicates,8124,0,0.0,0
+mushroom,Mushroom,87,0,not_run_no_predictor_duplicates,8124,0,0.0,0
+mushroom,Mushroom,123,0,not_run_no_predictor_duplicates,8124,0,0.0,0
+predict_students_dropout_and_academic_success,Students,13,0,not_run_no_predictor_duplicates,4424,0,0.0,0
+predict_students_dropout_and_academic_success,Students,21,0,not_run_no_predictor_duplicates,4424,0,0.0,0
+predict_students_dropout_and_academic_success,Students,42,0,not_run_no_predictor_duplicates,4424,0,0.0,0
+predict_students_dropout_and_academic_success,Students,87,0,not_run_no_predictor_duplicates,4424,0,0.0,0
+predict_students_dropout_and_academic_success,Students,123,0,not_run_no_predictor_duplicates,4424,0,0.0,0
+productivity_prediction_of_garment_employees,Productivity Prediction,13,0,not_run_no_predictor_duplicates,1197,0,0.0,0
+productivity_prediction_of_garment_employees,Productivity Prediction,21,0,not_run_no_predictor_duplicates,1197,0,0.0,0
+productivity_prediction_of_garment_employees,Productivity Prediction,42,0,not_run_no_predictor_duplicates,1197,0,0.0,0
+productivity_prediction_of_garment_employees,Productivity Prediction,87,0,not_run_no_predictor_duplicates,1197,0,0.0,0
+productivity_prediction_of_garment_employees,Productivity Prediction,123,0,not_run_no_predictor_duplicates,1197,0,0.0,0

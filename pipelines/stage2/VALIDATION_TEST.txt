@@ -1,0 +1,25 @@
+Stage 2 package validation (OpenAI build environment)
+=====================================================
+
+Static validation: PASS
+- stage2_major_revision.py compiles successfully.
+- exact v4 base implementation is included unchanged as an imported module.
+- frozen revision config includes Bank Marketing duration removal.
+- Stage-1 and Stage-1B outputs are bundled for provenance.
+
+Smoke validation: PASS
+- exact dataset SHA-256 matches: 20/20
+- frozen protocol preparation: 20/20 datasets
+- Bank Marketing duration absent after revision config
+- external baseline smoke: PASS
+- actual cross-fitted Hybrid smoke: PASS
+- NBEM/Adaptive timing smoke: PASS
+
+Smoke dataset: Heart Disease
+Smoke seed: 42
+Smoke outer folds: 2
+Smoke inner cross-fitting folds: 2
+Smoke MLP max_iter: 60
+
+IMPORTANT: Smoke outputs are stored under SMOKE_DO_NOT_REPORT and MUST NOT be
+used as scientific results. Full five-seed runs are required for manuscript use.

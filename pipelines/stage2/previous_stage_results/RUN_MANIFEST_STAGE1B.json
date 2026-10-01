@@ -1,0 +1,31 @@
+{
+  "stage": "major_revision_stage1b_duplicate_leakage_sensitivity",
+  "base_v4_script_sha256": "1560fe819ca698867442525b65c8e34b45cd2e6c4809344a5e5e050e5fd2d886",
+  "revision_config_sha256": "1ad64004297ef2e53461ed937f3929cf6857da0ce3d0cf161fbfb2a2c65f48a2",
+  "dataset_manifest_sha256": "fc175486daca3e26980e9d42fc836e86d8abb045deb65ecd648a60552f1c3b76",
+  "stage1_audit_sha256": "296bb5dcc3882456f70385e363a7c4f989f95021fd63d28d3b8304faa5588f76",
+  "record_level_v4_reference_sha256": "efd39a8a0e54070b2eb931ee6dbc0828544e6005db106c1509c98f2bcd49c67f",
+  "mode": "sensitivity",
+  "seeds": [
+    13,
+    21,
+    42,
+    87,
+    123
+  ],
+  "requested_folds": 10,
+  "duplicate_heavy_threshold_pct": 10.0,
+  "models": [
+    "NBEM",
+    "Hybrid NBEM"
+  ],
+  "record_side": "exact v4 reference results",
+  "quick": false,
+  "notes": [
+    "Raw CSV files are not edited.",
+    "Stage-1 revision config removes Bank Marketing duration in memory.",
+    "No duplicate rows are automatically deleted.",
+    "Duplicate-grouped CV keeps exact predictor signatures within a single fold.",
+    "Default grouped sensitivity evaluates the core comparison: NBEM-prop vs Hybrid NBEM."
+  ]
+}

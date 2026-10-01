@@ -1,0 +1,21 @@
+﻿dataset,display_name,exposure_pct_mean,exposure_pct_sd,exposure_pct_max,conflicting_duplicate_test_rows_exposed_total,rows_used,features_used,target,feature_duplicate_excess,rows_in_feature_duplicate_groups,rows_in_feature_duplicate_groups_pct,conflicting_feature_groups,rows_in_conflicting_feature_groups,rows_in_conflicting_feature_groups_pct,selected_for_grouped_model_sensitivity
+abalone,Abalone,0.0,0.0,0.0,0,4177,8,Rings,0,0,0.0,0,0,0.0,False
+bank_marketing,Bank,0.0,0.0,0.0,0,45211,16,y,0,0,0.0,0,0,0.0,False
+car_evaluation,Car Evaluation,0.0,0.0,0.0,0,1728,6,class,0,0,0.0,0,0,0.0,False
+cardiotocography,Fetal Health,1.3734713076199436,0.05152611077188774,1.4111006585136407,18,2126,21,NSP,16,30,1.4111006585136407,2,4,0.18814675446848542,False
+chronic_kidney_disease,Kidney Disease,0.0,0.0,0.0,0,400,24,classification,0,0,0.0,0,0,0.0,False
+cirrhosis_patient_survival_prediction_dataset_1,Cirrhosis Survival,0.0,0.0,0.0,0,418,18,Status,0,0,0.0,0,0,0.0,False
+credit_approval,Credit Approval,0.0,0.0,0.0,0,690,15,class,0,0,0.0,0,0,0.0,False
+diabetes_130_us_hospitals_for_years_1999_2008,Diabetes,0.0,0.0,0.0,0,101766,47,readmitted,0,0,0.0,0,0,0.0,False
+dry_bean_dataset,Dry Beans,0.8933950481228419,0.02414470167534342,0.9257218426272867,0,13611,16,Class,68,136,0.9991918301373889,0,0,0.0,False
+ecoli,E. coli,0.0,0.0,0.0,0,336,7,class,0,0,0.0,0,0,0.0,False
+glass_identification,Glass Identification,0.5607476635514018,0.5118902406590338,0.9345794392523364,0,214,9,Type,1,2,0.9345794392523364,0,0,0.0,False
+haberman_s_survival,Haberman Survival,13.333333333333334,0.5845929352940624,14.052287581699346,56,306,3,survival_status,23,45,14.705882352941176,6,12,3.9215686274509802,True
+heart_disease,Heart Disease,0.0,0.0,0.0,0,303,13,target,0,0,0.0,0,0,0.0,False
+heart_failure_clinical_records,Heart Failure,0.0,0.0,0.0,0,299,12,DEATH_EVENT,0,0,0.0,0,0,0.0,False
+hepatitis,Hepatitis,0.0,0.0,0.0,0,155,19,Class,0,0,0.0,0,0,0.0,False
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,4.25385934819897,0.3068360861063174,4.459691252144082,0,583,10,Dataset,13,26,4.459691252144082,0,0,0.0,False
+internet_advertisements,Internet Ads,33.723696248856356,0.10431614136314366,33.85178408051235,270,3279,1558,class,859,1137,34.675205855443735,3,54,1.646843549862763,True
+mushroom,Mushroom,0.0,0.0,0.0,0,8124,22,class,0,0,0.0,0,0,0.0,False
+predict_students_dropout_and_academic_success,Students,0.0,0.0,0.0,0,4424,36,Target,0,0,0.0,0,0,0.0,False
+productivity_prediction_of_garment_employees,Productivity Prediction,0.0,0.0,0.0,0,1197,14,actual_productivity,0,0,0.0,0,0,0.0,False
