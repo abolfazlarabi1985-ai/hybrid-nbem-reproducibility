@@ -1,0 +1,21 @@
+Dataset,Instances,Features,Classes,Boolean,Categorical,Numerical,Missing Values
+Abalone,4177,9,28,0,1,7,0
+Bank Marketing,45211,17,2,3,6,7,0
+Car Evaluation,1728,7,4,0,6,0,0
+Cardiotocography,2129,42,4,1,40,0,52
+Chronic Kidney Disease,400,26,3,8,5,12,1009
+Cirrhosis Patient Survival Prediction Dataset 1,418,20,3,5,1,13,1033
+Credit Approval,690,16,2,4,5,6,67
+Diabetes 130 Us Hospitals For Years 1999 2008,101766,50,2,10,26,13,374017
+Dry Bean Dataset,13611,17,7,0,0,16,0
+Ecoli,336,9,8,2,1,5,0
+Glass Identification,214,11,6,0,0,10,0
+Haberman S Survival,306,4,2,0,0,3,0
+Heart Disease,303,14,5,3,0,10,6
+Heart Failure Clinical Records,299,13,2,5,0,7,0
+Hepatitis,155,20,2,13,0,6,167
+Ilpd Indian Liver Patient Dataset,583,11,2,1,0,9,4
+Internet Advertisements,3279,1559,2,1555,3,0,15
+Mushroom,8124,23,2,6,16,0,2480
+Predict Students Dropout And Academic Success,4424,37,3,8,0,28,0
+Productivity Prediction Of Garment Employees,1197,15,879,0,4,10,506

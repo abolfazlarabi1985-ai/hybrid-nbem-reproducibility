@@ -1,0 +1,39 @@
+{
+  "stage": "Major Revision Stage 2",
+  "timestamp_local": "2026-09-23T12:03:44.231883",
+  "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-2012ServerR2-6.3.9600-SP0",
+  "base_script_sha256": "1560fe819ca698867442525b65c8e34b45cd2e6c4809344a5e5e050e5fd2d886",
+  "stage2_script_sha256": "0218fbec5ed5074af38ecf75ad975b92da3e8ad16b1c1cf962c5ce3a6173a30f",
+  "config_sha256": "1ad64004297ef2e53461ed937f3929cf6857da0ce3d0cf161fbfb2a2c65f48a2",
+  "manifest_sha256": "fc175486daca3e26980e9d42fc836e86d8abb045deb65ecd648a60552f1c3b76",
+  "exact_dataset_hash_matches": 20,
+  "exact_dataset_count": 20,
+  "mode": "timing",
+  "seeds": [
+    13,
+    21,
+    42,
+    87,
+    123
+  ],
+  "outer_requested_folds": 10,
+  "inner_requested_folds_for_crossfit": 5,
+  "n_bins": 5,
+  "mlp_max_iter": 300,
+  "bank_duration_removed_by_config": true,
+  "primary_duplicate_policy": "no blind duplicate deletion; Stage-1B grouped sensitivity retained separately",
+  "diabetes_outer_grouping": "patient-grouped",
+  "external_baselines": {
+    "Logistic Regression": "untuned C=1.0, lbfgs, one-hot categorical/boolean, standardized numeric",
+    "Random Forest": "untuned standard RF, 100 trees, sqrt features, one-hot categorical/boolean, raw imputed numeric"
+  },
+  "crossfit_subset_predeclared": [
+    "bank_marketing",
+    "car_evaluation",
+    "dry_bean_dataset",
+    "heart_disease",
+    "internet_advertisements",
+    "productivity_prediction_of_garment_employees"
+  ]
+}

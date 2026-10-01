@@ -1,0 +1,23 @@
+{
+  "stage": "Major Revision Stage 3",
+  "purpose": "Predeclared 20-seed robustness comparison of Hybrid NBEM versus NBEM-prop and Logistic Regression",
+  "locked_before_stage3_outcomes": true,
+  "original_five_seeds": [13, 21, 42, 87, 123],
+  "additional_seed_generation": {
+    "generator": "numpy.random.default_rng",
+    "generator_seed": 20260924,
+    "draw_range": "integers(1, 1000000)",
+    "rule": "draw until 15 unique values not equal to any original seed"
+  },
+  "additional_fifteen_seeds": [370882, 65932, 69887, 156304, 535886, 648362, 663649, 519965, 934243, 41762, 273103, 627018, 266458, 503966, 43529],
+  "all_twenty_seeds": [13, 21, 42, 87, 123, 370882, 65932, 69887, 156304, 535886, 648362, 663649, 519965, 934243, 41762, 273103, 627018, 266458, 503966, 43529],
+  "primary_models": ["NBEM", "Hybrid NBEM", "Logistic Regression"],
+  "primary_metrics": ["f1_weighted", "f1_macro"],
+  "primary_inference_unit": "dataset",
+  "notes": [
+    "The original five seeds are retained without exclusion.",
+    "The 15 additional seeds were deterministically generated before observing Stage-3 outcomes.",
+    "All three models use the same outer split for a given dataset and seed.",
+    "The first five seed results are reused from already validated final-protocol runs; only the 15 additional seeds require new model fitting."
+  ]
+}

@@ -1,0 +1,11 @@
+Stage-4 pre-delivery smoke validation: PASS
+Date: 2026-09-26
+Validation performed locally with --mode smoke --rf-jobs 2.
+Observed checks:
+- exact hash matches: 20/20
+- frozen protocol: PASS (20 datasets; Bank duration removed)
+- Stage-3 finalized 20-seed matrix: PASS
+- Stage-2 RF original five seeds: PASS
+- RF smoke test: PASS
+
+No Stage-4 scientific performance result is included in this validation file. The full 15 additional RF seeds must be run by the author on the target server.

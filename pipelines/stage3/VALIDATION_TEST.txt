@@ -1,0 +1,23 @@
+NBEM Major Revision Stage 3 - Validation Test
+==============================================
+
+Validation performed before packaging:
+
+1. Exact dataset snapshot verification: PASS (20/20 SHA-256 matches).
+2. Frozen revision protocol: PASS (Bank Marketing `duration` absent; all 20 datasets prepared).
+3. Locked 20-seed plan deterministic regeneration: PASS.
+4. Preloaded first-five matrix: PASS
+   - 20 datasets
+   - 5 original seeds: 13, 21, 42, 87, 123
+   - 3 models: NBEM, Hybrid NBEM, Logistic Regression
+   - 2,865 fold rows, all status=OK
+   - identical outer CV protocol and fold count across the three models for every dataset+seed.
+5. Smoke test: PASS for all three models.
+6. Full-protocol exact reproduction check on Heart Disease, seed 42: PASS.
+   The Stage-3 unified evaluator was compared fold-by-fold with the already validated preloaded results.
+   Maximum absolute metric difference across Accuracy, Balanced Accuracy, weighted/macro precision/recall/F1,
+   and weighted ROC-AUC was 8.33e-17 (floating-point roundoff only).
+7. Python syntax compilation: PASS.
+
+No Stage-3 scientific outcome was inspected when choosing the 15 additional seeds.
+The full Stage-3 scientific run must still be performed by the author using run_01_stage3_full_20seed.bat.

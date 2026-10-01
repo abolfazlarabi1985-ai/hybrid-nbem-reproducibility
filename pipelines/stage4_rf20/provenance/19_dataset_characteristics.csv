@@ -1,0 +1,21 @@
+﻿dataset,display_name,n_rows,n_features,n_boolean,n_categorical,n_numerical,n_classes,task_type,feature_mix,discrete_fraction,numerical_fraction,size_group_predeclared_median_rule,dimension_group_predeclared_median_rule,log10_n_rows
+abalone,Abalone,4177,8,0,1,7,28,multiclass,mixed,0.125,0.875,larger_half,lower_dim_half,3.620864475265121
+bank_marketing,Bank,45211,15,3,6,6,2,binary,mixed,0.6,0.4,larger_half,higher_dim_half,4.6552441130877975
+car_evaluation,Car Evaluation,1728,6,0,6,0,4,multiclass,discrete_only,1.0,0.0,larger_half,lower_dim_half,3.2375437381428744
+cardiotocography,Fetal Health,2126,21,1,0,20,3,multiclass,mixed,0.047619047619047616,0.9523809523809523,larger_half,higher_dim_half,3.327563260187278
+chronic_kidney_disease,Kidney Disease,400,24,10,3,11,2,binary,mixed,0.5416666666666666,0.4583333333333333,smaller_half,higher_dim_half,2.6020599913279625
+cirrhosis_patient_survival_prediction_dataset_1,Cirrhosis Survival,418,18,5,1,12,3,multiclass,mixed,0.3333333333333333,0.6666666666666666,smaller_half,higher_dim_half,2.621176281775035
+credit_approval,Credit Approval,690,15,4,5,6,2,binary,mixed,0.6,0.4,smaller_half,higher_dim_half,2.838849090737255
+diabetes_130_us_hospitals_for_years_1999_2008,Diabetes,101766,47,11,25,11,3,multiclass,mixed,0.7659574468085106,0.23404255319148937,larger_half,higher_dim_half,5.007602704535406
+dry_bean_dataset,Dry Beans,13611,16,0,0,16,7,multiclass,numerical_only,0.0,1.0,larger_half,higher_dim_half,4.133890033985679
+ecoli,E. coli,336,7,2,0,5,8,multiclass,mixed,0.2857142857142857,0.7142857142857143,smaller_half,lower_dim_half,2.526339277389844
+glass_identification,Glass Identification,214,9,0,0,9,6,multiclass,numerical_only,0.0,1.0,smaller_half,lower_dim_half,2.330413773349191
+haberman_s_survival,Haberman Survival,306,3,0,0,3,2,binary,numerical_only,0.0,1.0,smaller_half,lower_dim_half,2.48572142648158
+heart_disease,Heart Disease,303,13,3,0,10,5,multiclass,mixed,0.23076923076923078,0.7692307692307693,smaller_half,lower_dim_half,2.481442628502305
+heart_failure_clinical_records,Heart Failure,299,12,5,0,7,2,binary,mixed,0.4166666666666667,0.5833333333333334,smaller_half,lower_dim_half,2.4756711883244296
+hepatitis,Hepatitis,155,19,13,0,6,2,binary,mixed,0.6842105263157895,0.3157894736842105,smaller_half,higher_dim_half,2.1903316981702914
+ilpd_indian_liver_patient_dataset,Indian Liver Patients,583,10,1,0,9,2,binary,mixed,0.1,0.9,smaller_half,lower_dim_half,2.765668554759014
+internet_advertisements,Internet Ads,3279,1558,1555,3,0,2,binary,discrete_only,1.0,0.0,larger_half,higher_dim_half,3.515741416669365
+mushroom,Mushroom,8124,22,6,16,0,2,binary,discrete_only,1.0,0.0,larger_half,higher_dim_half,3.9097699147327694
+predict_students_dropout_and_academic_success,Students,4424,36,8,0,28,3,multiclass,mixed,0.2222222222222222,0.7777777777777778,larger_half,higher_dim_half,3.645815118296642
+productivity_prediction_of_garment_employees,Productivity Prediction,1197,14,1,3,10,3,multiclass,mixed,0.2857142857142857,0.7142857142857143,larger_half,lower_dim_half,3.0780941504064105
