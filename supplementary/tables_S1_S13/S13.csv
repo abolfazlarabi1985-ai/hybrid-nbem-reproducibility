@@ -1,0 +1,3 @@
+﻿Dataset,Weighted F1,Macro-F1,ROC-AUC
+Haberman Survival,-0.0040,-0.0048,-0.0026
+Internet Ads,-0.0081,-0.0156,-0.0111

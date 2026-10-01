@@ -1,0 +1,7 @@
+﻿Metric,Comparator,Mean comparator,Mean Hybrid,Holm-adjusted
+Weighted F1,WNB,0.6604,0.7722,1.717e-05
+Weighted F1,NBEM-prop,0.7081,0.7722,7.248e-05
+Weighted F1,Adaptive Weighted NBEM,0.7085,0.7722,7.248e-05
+Macro-F1,WNB,0.4680,0.6638,1.144e-05
+Macro-F1,NBEM-prop,0.6008,0.6638,1.701e-03
+Macro-F1,Adaptive Weighted NBEM,0.6002,0.6638,1.701e-03

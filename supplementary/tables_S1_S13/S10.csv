@@ -1,0 +1,7 @@
+﻿Metric,Comparator,Mean difference,95% bootstrap CI,W/T/L,Rank-biserial,Holm
+Weighted F1,NBEM-prop,+0.0641,"[0.0391, 0.0920]",17/0/3,+0.924,0.000143
+Weighted F1,Logistic Regression,+0.0048,"[-0.0069, 0.0177]",11/0/9,+0.143,0.596
+Weighted F1,Random Forest,-0.0150,"[-0.0308, -0.0019]",6/0/14,-0.448,0.165
+Macro-F1,NBEM-prop,+0.0628,"[0.0304, 0.0978]",17/0/3,+0.752,0.00596
+Macro-F1,Logistic Regression,+0.0020,"[-0.0188, 0.0222]",10/0/10,+0.029,0.927
+Macro-F1,Random Forest,-0.0295,"[-0.0526, -0.0100]",5/0/15,-0.619,0.0272

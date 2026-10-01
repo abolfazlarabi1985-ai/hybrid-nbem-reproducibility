@@ -1,0 +1,3 @@
+﻿dataset,display_name,exposure_pct_mean,exposure_pct_sd,exposure_pct_max,conflicting_duplicate_test_rows_exposed_total,rows_used,features_used,target,feature_duplicate_excess,rows_in_feature_duplicate_groups,rows_in_feature_duplicate_groups_pct,conflicting_feature_groups,rows_in_conflicting_feature_groups,rows_in_conflicting_feature_groups_pct,selected_for_grouped_model_sensitivity
+haberman_s_survival,Haberman Survival,13.333333333333334,0.5845929352940624,14.052287581699346,56,306,3,survival_status,23,45,14.705882352941176,6,12,3.9215686274509802,True
+internet_advertisements,Internet Ads,33.723696248856356,0.10431614136314366,33.85178408051235,270,3279,1558,class,859,1137,34.675205855443735,3,54,1.646843549862763,True

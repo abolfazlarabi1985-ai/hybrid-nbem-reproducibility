@@ -1,0 +1,13 @@
+﻿Dataset,CV protocol,Weighted F1,Macro-F1
+Abalone,KFold_10,0.2485  0.0055,0.1404  0.0033
+Abalone,KFold_5,0.2465  0.0058,0.1276  0.0045
+Fetal Health,StratifiedKFold_10,0.9240  0.0064,0.8583  0.0141
+Fetal Health,StratifiedKFold_5,0.9191  0.0068,0.8478  0.0119
+Diabetes,StratifiedGroupKFold_10,0.5355  0.0020,0.3966  0.0024
+Diabetes,StratifiedKFold_10,0.5359  0.0010,0.3976  0.0011
+E. coli,RepeatedStratifiedKFold_2x3,0.8161  0.0136,0.4937  0.0211
+E. coli,StratifiedKFold_2,0.8250  0.0256,0.5034  0.0425
+Glass Identification,RepeatedStratifiedKFold_9x3,0.6409  0.0170,0.5368  0.0210
+Glass Identification,StratifiedKFold_5,0.6569  0.0104,0.5636  0.0218
+Productivity Prediction,StratifiedKFold_10,0.7033  0.0101,0.5591  0.0156
+Productivity Prediction,StratifiedKFold_5,0.6928  0.0129,0.5427  0.0277

@@ -1,0 +1,7 @@
+﻿Dataset,Weighted F1,Macro-F1,ROC-AUC
+bank marketing,-0.0018,-0.0080,-0.0000
+car evaluation,-0.0114,-0.0195,-0.0011
+dry bean dataset,-0.0010,-0.0009,-0.0001
+heart disease,+0.0090,+0.0285,+0.0069
+internet advertisements,+0.0051,+0.0096,+0.0006
+productivity prediction of garment employees,-0.0047,-0.0263,+0.0002

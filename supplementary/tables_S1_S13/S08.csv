@@ -1,0 +1,5 @@
+﻿Model,Model fit (s),Inference (s)
+NBEM-prop,0.044,0.018
+Hybrid NBEM,34.005,0.110
+Logistic Regression,5.066,0.003
+Random Forest,5.183,0.305

@@ -1,0 +1,21 @@
+﻿Dataset,NBEM-prop,Hybrid NBEM,Logistic Regression,Random Forest
+Abalone,0.1210,0.1401,0.1378,0.1419
+Bank,0.5576,0.6237,0.6113,0.6417
+Car Evaluation,0.6065,0.8660,0.7687,0.8990
+Fetal Health,0.7001,0.8514,0.7925,0.8997
+Kidney Disease,0.9245,0.9820,0.9889,0.9929
+Cirrhosis Survival,0.4929,0.5213,0.5401,0.5162
+Credit Approval,0.7599,0.8584,0.8585,0.8726
+Diabetes,0.3383,0.3976,0.3840,0.3724
+Dry Beans,0.9065,0.9412,0.9359,0.9357
+E. coli,0.5428,0.5118,0.6310,0.6165
+Glass Identification,0.4574,0.5461,0.5296,0.7176
+Haberman Survival,0.5581,0.5594,0.5269,0.5572
+Heart Disease,0.2892,0.2932,0.3187,0.2733
+Heart Failure,0.6561,0.7935,0.8021,0.8168
+Hepatitis,0.7548,0.7196,0.7549,0.7229
+Indian Liver Patients,0.5574,0.4963,0.5629,0.5960
+Internet Ads,0.9148,0.9353,0.9521,0.9542
+Mushroom,0.9427,0.9997,0.9999,1.0000
+Students,0.5816,0.6864,0.6762,0.6948
+Productivity Prediction,0.3641,0.5593,0.4709,0.6518

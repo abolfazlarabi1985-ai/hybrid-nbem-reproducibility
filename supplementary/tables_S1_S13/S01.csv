@@ -1,0 +1,4 @@
+﻿Method,Training complexity,Main additional operation
+NBEM-prop,,Type-specific Naive Bayes estimation
+Adaptive Weighted NBEM,,Entropy-margin scores and Softmax gating
+Hybrid NBEM,,"Capped interactions, MLP learning, and logistic stacking"

@@ -1,0 +1,12 @@
+﻿Model or stage,Configuration
+Bernoulli / Categorical NB,Laplace smoothing alpha=1; posterior columns aligned to the global class order.
+Gaussian NB,Default scikit-learn variance smoothing; numerical inputs standardized using training-fold statistics.
+WNB,Categorical NB on the discretized representation with mutual-information feature weights estimated only from the training fold.
+NBEM-prop,"Bernoulli, categorical, and Gaussian NB components; each available component weighted in proportion to the number of predictors in its feature group."
+Adaptive Weighted NBEM,Entropy-margin score with lambda=0.5 and Softmax temperature tau=1.
+Dependency-aware component,Five-bin training-fold discretization; at most 80 mutual-information candidates; 10 pairwise interactions selected by absolute correlation.
+Probabilistic deep component,"MLP hidden layers (128,64); ReLU; Adam; L2 penalty 10^-4; initial learning rate 10^-3; adaptive schedule; max 300 iterations; early stopping with validation fraction 0.1 and patience 20."
+Hybrid meta-learner,Logistic regression over concatenated component posteriors; max 1000 iterations.
+Logistic Regression baseline,Fold-local one-hot categorical/Boolean representation; standardized numerical features; C=1; lbfgs; max 2000 iterations.
+Random Forest baseline,100 trees; Gini criterion; unrestricted depth; minimum split size 2; minimum leaf size 1; max_features=sqrt; bootstrap enabled.
+Randomization,"Five original in-family seeds {13,21,42,87,123}; locked twenty-seed focal comparison for Hybrid/NBEM-prop/Logistic/RF; reference seed 42 for ablation."

@@ -1,0 +1,93 @@
+[
+  {
+    "table": "S1",
+    "caption": "Supplementary Table S1. Implementation-level complexity summary for the evaluated NBEM extensions.",
+    "file": "S01.csv",
+    "rows_including_header": 4,
+    "columns": 3
+  },
+  {
+    "table": "S2",
+    "caption": "Supplementary Table S2. Fixed model configurations used in the reported experiments.",
+    "file": "S02.csv",
+    "rows_including_header": 12,
+    "columns": 2
+  },
+  {
+    "table": "S3",
+    "caption": "Supplementary Table S3. Dataset-wise weighted F1-score averaged over the five predefined seeds under the primary Bank Marketing protocol with duration excluded.",
+    "file": "S03.csv",
+    "rows_including_header": 21,
+    "columns": 5
+  },
+  {
+    "table": "S4",
+    "caption": "Supplementary Table S4. Dataset-wise Macro-F1 averaged over the five predefined seeds under the primary Bank Marketing protocol with duration excluded.",
+    "file": "S04.csv",
+    "rows_including_header": 21,
+    "columns": 5
+  },
+  {
+    "table": "S5",
+    "caption": "Supplementary Table S5. Dataset-wise weighted F1-score for the focal four-model comparison, averaged over the same twenty locked seeds.",
+    "file": "S05.csv",
+    "rows_including_header": 21,
+    "columns": 5
+  },
+  {
+    "table": "S6",
+    "caption": "Supplementary Table S6. Dataset-wise Macro-F1 for the focal four-model comparison, averaged over the same twenty locked seeds.",
+    "file": "S06.csv",
+    "rows_including_header": 21,
+    "columns": 5
+  },
+  {
+    "table": "S7",
+    "caption": "Supplementary Table S7. Dataset-wise weighted Precision (Recall), averaged over the five predefined seeds under the primary Bank Marketing protocol with duration excluded.",
+    "file": "S07.csv",
+    "rows_including_header": 21,
+    "columns": 5
+  },
+  {
+    "table": "S8",
+    "caption": "Supplementary Table S8. Model-only timing in the twenty-seed focal runs. Values are equal-dataset means in the measured software/hardware environment; preprocessing time is excluded.",
+    "file": "S08.csv",
+    "rows_including_header": 5,
+    "columns": 3
+  },
+  {
+    "table": "S9",
+    "caption": "Supplementary Table S9. Five-seed in-family Wilcoxon comparisons. Holm correction is applied within each F1 metric across the three planned comparators.",
+    "file": "S09.csv",
+    "rows_including_header": 7,
+    "columns": 5
+  },
+  {
+    "table": "S10",
+    "caption": "Supplementary Table S10. Twenty-seed focal paired comparisons using one twenty-seed mean per dataset as the inferential unit. Holm correction is across the three planned comparator contrasts within each metric.",
+    "file": "S10.csv",
+    "rows_including_header": 7,
+    "columns": 7
+  },
+  {
+    "table": "S11",
+    "caption": "Supplementary Table S11. Actual cross-fitted Hybrid NBEM robustness check. Values are cross-fitted minus main non-cross-fitted means across the original five seeds.",
+    "file": "S11.csv",
+    "rows_including_header": 7,
+    "columns": 4
+  },
+  {
+    "table": "S12",
+    "caption": "Supplementary Table S12. Cross-validation sensitivity analysis for Hybrid NBEM. Values are mean ± standard deviation across the original five seeds.",
+    "file": "S12.csv",
+    "rows_including_header": 13,
+    "columns": 4
+  },
+  {
+    "table": "S13",
+    "caption": "Supplementary Table S13. Duplicate-grouped sensitivity for the two datasets exceeding the predeclared duplicate-exposure threshold. Values are grouped minus record-level means for Hybrid NBEM.",
+    "file": "S13.csv",
+    "rows_including_header": 3,
+    "columns": 4
+  }
+]

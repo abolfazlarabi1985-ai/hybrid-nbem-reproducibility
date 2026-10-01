@@ -1,0 +1,7 @@
+﻿dataset,selection_basis
+bank_marketing,Bank duration correction / mixed binary task
+car_evaluation,categorical multiclass task
+dry_bean_dataset,numerical multiclass medium-scale task
+heart_disease,small mixed-type clinical benchmark
+internet_advertisements,high-dimensional task with duplicate sensitivity
+productivity_prediction_of_garment_employees,mixed-type three-class task
