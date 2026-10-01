@@ -1,0 +1,13 @@
+Validation performed before delivery
+===================================
+1) Audit-mode smoke validation: PASS
+   - exact dataset SHA-256 matches: 20/20
+   - datasets audited: 20
+   - feature inventory rows: 1874
+2) Bank sensitivity smoke test: PASS
+   - seed: 42
+   - folds: 2
+   - --quick enabled
+   - both with_duration and without_duration completed
+IMPORTANT: smoke-test numerical outputs were deleted and are not included in this package.
+They must never be used in the manuscript.
