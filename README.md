@@ -4,7 +4,7 @@ This repository supports the manuscript:
 
 **Adaptive Weighted and Hybrid Extensions of the Naive Bayes Enrichment Method for Mixed-Type Data: An Evaluation within the NB/NBEM Family**
 
-Authors: **Abolfazl Arabi** and **Samaneh Ghods**  
+Authors: **Abolfazl Arabi** and **Samaneh Ghods**
 Repository: https://github.com/abolfazlarabi1985-ai/hybrid-nbem-reproducibility
 
 ## What v1.0.2 adds
@@ -12,7 +12,6 @@ Repository: https://github.com/abolfazlarabi1985-ai/hybrid-nbem-reproducibility
 Version 1.0.2 supersedes the prepared v1.0.1 package by restoring the original Major Revision Stage 1, Stage 1B, Stage 2, Stage 3 and Stage 4 READY_TO_RUN source packages.
 
 Most importantly, the exact Stage-2, Stage-3 and Stage-4 orchestration scripts are now present and their SHA-256 values were verified against the hashes recorded in the retained run manifests that produced the archived results:
-
 - Stage 2 `stage2_major_revision.py`: `0218fbec5ed5074af38ecf75ad975b92da3e8ad16b1c1cf962c5ce3a6173a30f`
 - Stage 3 `stage3_major_revision.py`: `ca31ece3fb189e3a6c74e5f4975b240e04ee2f8ac621425791a53fd9af0c228d`
 - Stage 4 `stage4_rf20_major_revision.py`: `21c4a8f8545f519b85126a3d16c0a51b628497da4cdcfcb27d96408ecd92c1be`
@@ -23,14 +22,16 @@ The main empirical Hybrid NBEM stacker reported in the manuscript is **non-cross
 
 ## Release / DOI status
 
-The previously published Zenodo version is:
+The current archival release corresponding to this repository and the revised manuscript is **v1.0.2**:
 
-- **v1.0.0 DOI:** https://doi.org/10.5281/zenodo.23045513
+- **v1.0.2 Zenodo DOI:** https://doi.org/10.5281/zenodo.23091693
+- **DOI:** `10.5281/zenodo.23091693`
 
-This directory is the prepared **v1.0.2** release. A new version-specific Zenodo DOI should be inserted only after Zenodo archives the GitHub v1.0.2 release. No new DOI is invented in this package.
+Version **v1.0.2** is the complete archived reproducibility release for the current manuscript. It includes the restored source provenance, preprocessing and dataset configurations, the five original seeds and locked twenty-seed plan, the corrected seed-42 Bank ablation, statistical scripts and outputs, the cross-fitted subset experiment, duplicate-sensitivity analysis, environment metadata, and Supplementary Tables S1–S13.
+
+The earlier **v1.0.0** Zenodo release (`10.5281/zenodo.23045513`) is retained only as a historical version and should not be used as the archival identifier for the current **v1.0.2** reproducibility package.
 
 ## Repository map
-
 - `src/` — exact retained v4 base implementation used in the article workflow.
 - `pipeline/` — original Major Revision READY_TO_RUN source trees:
   - `stage1/` — exact-data/leakage audit and Bank `duration` sensitivity.
@@ -82,7 +83,6 @@ src/nbem_article_experiments_v4_EXACT_USED.py
 ```
 
 The final corrected configuration is:
-
 ```text
 config/dataset_config_FINAL_bank_duration_removed.json
 ```
@@ -126,7 +126,6 @@ python pipeline/stage1b/stage1b_duplicate_leakage_sensitivity.py --mode audit
 
 # Stage 2: external baselines
 python pipeline/stage2/stage2_major_revision.py --mode baselines
-
 # Stage 2: predeclared cross-fitted subset
 python pipeline/stage2/stage2_major_revision.py --mode crossfit_subset
 
@@ -138,7 +137,6 @@ python pipeline/stage3/stage3_major_revision.py --mode full
 
 # Stage 3: analyze cached 20-seed results
 python pipeline/stage3/stage3_major_revision.py --mode analyze
-
 # Stage 4: locked 20-seed Random Forest extension
 python pipeline/stage4_rf20/stage4_rf20_major_revision.py --mode full
 ```
